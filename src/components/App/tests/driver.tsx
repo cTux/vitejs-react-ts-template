@@ -17,11 +17,17 @@ export class AppDriver extends EnzymeBaseDriver<typeof App, AppProps> {
   }
 
   title = {
-    text: () => this.titleInstance?.text(),
+    get: {
+      text: () => this.titleInstance?.text(),
+    },
   };
 
   btn = {
-    text: () => this.btnInstance?.text(),
-    click: () => this.btnInstance?.simulate('click'),
+    get: {
+      text: () => this.btnInstance?.text(),
+    },
+    when: {
+      clicked: () => this.btnInstance?.simulate('click'),
+    },
   };
 }

@@ -23,7 +23,9 @@ export class EnzymeBaseDriver<C, P> {
   afterRender() {}
 
   component = {
-    html: () => this.mountedComponentInstance?.html(),
-    props: () => this.mountedComponentInstance?.props(),
+    get: {
+      html: () => this.mountedComponentInstance?.html(),
+      props: () => this.mountedComponentInstance?.props(),
+    },
   };
 }

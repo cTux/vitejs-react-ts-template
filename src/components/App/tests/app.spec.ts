@@ -13,23 +13,23 @@ describe('App', () => {
 
   it('should match initial snapshot', () => {
     driver.render();
-    expect(driver.title.text()).toEqual('App');
-    expect(driver.btn.text()).toEqual('Counter: 0');
-    expect(driver.component.props()).toEqual({});
+    expect(driver.title.get.text()).toEqual('App');
+    expect(driver.btn.get.text()).toEqual('Counter: 0');
+    expect(driver.component.get.props()).toEqual({});
   });
 
   it('should match snapshot when props passed', () => {
     const title = 'Test';
     driver.render({ title });
-    expect(driver.title.text()).toEqual(title);
-    expect(driver.btn.text()).toEqual('Counter: 0');
-    expect(driver.component.props()).toEqual({ title });
+    expect(driver.title.get.text()).toEqual(title);
+    expect(driver.btn.get.text()).toEqual('Counter: 0');
+    expect(driver.component.get.props()).toEqual({ title });
   });
 
   it('should increment the counter', () => {
     driver.render();
-    expect(driver.btn.text()).toEqual('Counter: 0');
-    driver.btn.click();
-    expect(driver.btn.text()).toEqual('Counter: 1');
+    expect(driver.btn.get.text()).toEqual('Counter: 0');
+    driver.btn.when.clicked();
+    expect(driver.btn.get.text()).toEqual('Counter: 1');
   });
 });
