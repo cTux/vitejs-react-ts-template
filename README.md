@@ -6,6 +6,7 @@
 * ReactJS + PWA
 * i18next + react-i18next
 * SCSS Modules + Classnames + Normalize.css
+* Storybook
 * TypeScript
 * ESLint + Prettier
 * Jest + Enzyme
