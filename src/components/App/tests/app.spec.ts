@@ -1,4 +1,5 @@
 import { AppDriver } from './driver';
+import cn from '../styles.module.scss';
 
 describe('App', () => {
   let driver: AppDriver;
@@ -16,6 +17,7 @@ describe('App', () => {
     expect(driver.title.get.text()).toEqual('App');
     expect(driver.btn.get.text()).toEqual('Counter: 0');
     expect(driver.component.get.props()).toEqual({});
+    expect(driver.component.has.class(cn.app)).toEqual(true);
   });
 
   it('should match snapshot when props passed', () => {

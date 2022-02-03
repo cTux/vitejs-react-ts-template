@@ -36,6 +36,7 @@
     "husky": "^7.0.4",
     "jest": "^27.4.7",
     "jest-css-modules": "^2.1.0",
+    "jest-css-modules-transform": "^4.3.0",
     "postcss": "^8.4.6",
     "postcss-scss": "^4.0.3",
     "prettier": "^2.5.1",
@@ -53,8 +54,10 @@
       "<rootDir>/tests/jest.setup.ts"
     ],
     "moduleNameMapper": {
-      "\\.(jpg|png|svg|gif)$": "<rootDir>/tests/file.mock.ts",
-      "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
+      "\\.(jpg|png|svg|gif)$": "<rootDir>/tests/file.mock.ts"
+    },
+    "transform": {
+      "\\.(css|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"
     }
   }
 }

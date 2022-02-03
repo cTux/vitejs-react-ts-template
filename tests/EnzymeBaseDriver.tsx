@@ -2,6 +2,7 @@ import { mount, ReactWrapper } from 'enzyme';
 
 export class EnzymeBaseDriver<C, P> {
   protected mountedComponentInstance: ReactWrapper<C, P> | undefined;
+  private componentInstance: ReactWrapper | undefined;
 
   baseRenderFn(el: JSX.Element) {
     return mount<C, P>(el);
@@ -14,6 +15,7 @@ export class EnzymeBaseDriver<C, P> {
   render(props: Partial<P> = {}) {
     this.beforeRender();
     this.mountedComponentInstance = this.baseRenderFn(this.renderFn(props));
+    this.componentInstance = this.mountedComponentInstance.children().at(0);
     this.afterRender();
   }
 
@@ -26,6 +28,9 @@ export class EnzymeBaseDriver<C, P> {
     get: {
       html: () => this.mountedComponentInstance?.html(),
       props: () => this.mountedComponentInstance?.props(),
+    },
+    has: {
+      class: (className: string) => this.componentInstance?.hasClass(className),
     },
   };
 }
