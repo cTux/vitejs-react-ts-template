@@ -9,7 +9,8 @@
     "prepare": "husky install",
     "preview": "vite preview",
     "build": "vite build",
-    "rebuild": "rm -rf node_modules && pnpm install && pnpm run lint && pnpm run test && pnpm run build",
+    "build:scratch": "rm -rf node_modules && pnpm install && pnpm run lint && pnpm run test && pnpm run build",
+    "rebuild": "npm run build:scratch",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
