@@ -2,6 +2,7 @@
 
 ## Includes:
 
+* NodeJS 16
 * ReactJS
 * TypeScript
 * SCSS Modules + Classnames + Normalize.css
