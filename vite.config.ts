@@ -10,6 +10,7 @@ export default defineConfig((configEnv) => {
     : '[hash:base64:5]';
   return {
     base: './',
+    publicDir: './src/assets',
     plugins: [react(), VitePWA()],
     css: {
       modules: {

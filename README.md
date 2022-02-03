@@ -4,10 +4,10 @@
 
 * NodeJS 16
 * ReactJS + PWA
-* TypeScript
+* i18next + react-i18next
 * SCSS Modules + Classnames + Normalize.css
+* TypeScript
 * ESLint + Prettier
 * Jest + Enzyme
 * Husky
 * GitHub Pages Deploy
-* Only 38Kb gzipped vendor bundle
