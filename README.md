@@ -3,7 +3,7 @@
 ## Includes:
 
 * NodeJS 16
-* ReactJS
+* ReactJS + PWA
 * TypeScript
 * SCSS Modules + Classnames + Normalize.css
 * ESLint + Prettier
