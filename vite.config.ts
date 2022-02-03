@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import reactJsx from 'vite-react-jsx';
-import compress from 'vite-plugin-compress';
-import viteCompression from 'vite-plugin-compression';
 
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => {
@@ -12,7 +9,8 @@ export default defineConfig((configEnv) => {
     ? '[local]-[hash:base64:5]'
     : '[hash:base64:5]';
   return {
-    plugins: [react(), reactJsx(), VitePWA(), compress(), viteCompression()],
+    base: './',
+    plugins: [react(), VitePWA()],
     css: {
       modules: {
         generateScopedName,
