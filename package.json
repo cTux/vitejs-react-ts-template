@@ -8,8 +8,7 @@
     "test:watch": "jest --watchAll",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "postinstall": "husky install",
-    "precommit": "pnpm lint && pnpm test"
+    "prepare": "husky install"
   },
   "dependencies": {
     "classnames": "^2.3.1",
