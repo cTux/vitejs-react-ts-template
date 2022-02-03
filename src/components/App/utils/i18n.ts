@@ -10,7 +10,7 @@ export const initializeLocale = (lng = 'en') =>
       debug: false, // TODO: Use query param
       initImmediate: false,
       backend: {
-        loadPath: '/locales/{{lng}}.json',
+        loadPath: './locales/{{lng}}.json',
       },
       detection: {
         order: ['queryString', 'cookie'],
