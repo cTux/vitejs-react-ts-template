@@ -1,6 +1,5 @@
 import { AppDriver as EnzymeAppDriver } from './driver.enzyme';
 import { AppDriver as TestingLibraryAppDriver } from './driver.tl';
-import cn from '../styles.module.scss';
 
 describe('App', () => {
   [EnzymeAppDriver, TestingLibraryAppDriver].forEach((Driver) => {
