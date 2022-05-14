@@ -1,20 +1,21 @@
-import { ButtonsLanguageDriver } from './driver';
-import cn from '../styles.module.scss';
+import { SinonSpy, spy } from 'sinon';
+import { ButtonsLanguageDriver } from './driver.enzyme';
 import { supportedLanguages } from '../supportedLanguages';
+import { i18n } from '../utils/changeLanguage';
 import { Language } from '../types';
-import i18next from '../../../../tests/mocks/i18next.mock';
+import cn from '../styles.module.scss';
 
 describe('ButtonsLanguage', () => {
   let driver: ButtonsLanguageDriver;
-  let spyOnI18n;
+  let changeLanguageSpy: SinonSpy;
 
   beforeEach(() => {
     driver = new ButtonsLanguageDriver();
-    spyOnI18n = jest.spyOn(i18next, 'changeLanguage');
+    changeLanguageSpy = spy(i18n, 'changeLanguage');
   });
 
   afterEach(() => {
-    jest.restoreAllMocks();
+    changeLanguageSpy.restore();
   });
 
   it('should render w/o errors and exist', async () => {
@@ -27,7 +28,7 @@ describe('ButtonsLanguage', () => {
     it(`should trigger ${lang} change`, async () => {
       await driver.render();
       driver.btn.when.clicked(lang);
-      expect(spyOnI18n).toHaveBeenCalledWith(lang);
+      expect(changeLanguageSpy.calledOnce).toEqual(true);
     });
   });
 });

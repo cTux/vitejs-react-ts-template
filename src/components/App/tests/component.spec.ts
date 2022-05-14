@@ -1,19 +1,24 @@
-import { AppDriver } from './driver';
+import { AppDriver as EnzymeAppDriver } from './driver.enzyme';
+import { AppDriver as TestingLibraryAppDriver } from './driver.tl';
 import cn from '../styles.module.scss';
 
 describe('App', () => {
-  let driver: AppDriver;
+  [EnzymeAppDriver, TestingLibraryAppDriver].forEach((Driver) => {
+    describe(`${Driver.displayName}`, () => {
+      let driver;
 
-  beforeEach(() => {
-    driver = new AppDriver();
-  });
+      beforeEach(() => {
+        driver = new Driver();
+      });
 
-  it('should render w/o errors', () => {
-    expect(() => driver.render()).not.toThrow();
-  });
+      it('should render w/o errors', () => {
+        expect(() => driver.render()).not.toThrow();
+      });
 
-  it.skip('should have a class', async () => {
-    await driver.render();
-    expect(driver.component.has.class(cn.app)).toEqual(true);
+      it('should have default view', async () => {
+        await driver.render();
+        expect(driver.component.get.html()).toMatchSnapshot();
+      });
+    });
   });
 });
