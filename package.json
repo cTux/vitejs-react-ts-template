@@ -79,7 +79,8 @@
     "moduleNameMapper": {
       "\\.(jpg|png|svg|gif)$": "<rootDir>/tests/mocks/file.mock.ts",
       "react-i18next": "<rootDir>/tests/mocks/i18next-react.mock.tsx",
-      "i18next": "<rootDir>/tests/mocks/i18next.mock.ts"
+      "i18next": "<rootDir>/tests/mocks/i18next.mock.ts",
+      "clsx": "<rootDir>/tests/mocks/clsx.jest.mock.ts"
     },
     "transform": {
       "\\.(css|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"
