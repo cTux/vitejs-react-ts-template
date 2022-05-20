@@ -8,10 +8,11 @@
 
 ## Includes:
 
-* ReactJS + PWA
+* ReactJS v17
 * TypeScript
 * i18next + react-i18next
 * Normalize.css + SCSS Modules + CLSX
+* PWA
 * ESLint + Prettier
 * Enzyme + Testing Library
 * Husky + Pre-Commit checks
