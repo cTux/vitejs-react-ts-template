@@ -14,12 +14,16 @@ export class EnzymeBaseDriver<P> implements BaseDriver<P> {
   }
 
   async render(props?: P) {
-    return act(async () => {
-      const component = await this.renderFn(props);
+    await this.beforeRender();
+    const component = await this.renderFn(props);
+    act(() => {
       this.renderedComponentInstance = this.baseRenderFn(component);
-      await this.afterRender();
     });
+    await this.afterRender();
   }
+
+  // eslint-disable-next-line
+  async beforeRender() {}
 
   // eslint-disable-next-line
   async afterRender() {}

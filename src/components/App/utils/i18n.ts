@@ -7,7 +7,8 @@ export const initializeLocale = (lng = 'en') =>
     .use(Fetch)
     .use(initReactI18next)
     .init({
-      debug: false, // TODO: Use query param
+      lng,
+      debug: false,
       initImmediate: false,
       backend: {
         loadPath: './locales/{{lng}}.json',
@@ -16,7 +17,6 @@ export const initializeLocale = (lng = 'en') =>
         order: ['queryString', 'cookie'],
         cache: ['cookie'],
       },
-      lng,
       fallbackLng: 'en',
       interpolation: {
         escapeValue: false,
