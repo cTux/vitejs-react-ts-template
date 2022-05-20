@@ -57,6 +57,7 @@ specifiers:
   sinon: ^14.0.0
   ts-jest: ^28.0.2
   typescript: ^4.6.4
+  update-template: ^1.3.1
   vite: ^2.9.9
   vite-plugin-pwa: ^0.12.0
   vitest: ^0.12.6
@@ -120,6 +121,7 @@ devDependencies:
   sinon: 14.0.0
   ts-jest: 28.0.2_4ksqq3cqyiyfmuhn4muu6a7fma
   typescript: 4.6.4
+  update-template: 1.3.1
   vite: 2.9.9_sass@1.52.0
   vite-plugin-pwa: 0.12.0_vite@2.9.9
   vitest: 0.12.6_5vuohh4glapetg6qf7asa5xreq
@@ -11475,6 +11477,13 @@ packages:
       picomatch: 2.3.1
     dev: true
 
+  /recursive-readdir/2.2.2:
+    resolution: {integrity: sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      minimatch: 3.0.4
+    dev: true
+
   /redent/1.0.0:
     resolution: {integrity: sha1-z5Fqsf1fHxbfsggi3W7H9zDCr94=}
     engines: {node: '>=0.10.0'}
@@ -13217,6 +13226,15 @@ packages:
   /upath/1.2.0:
     resolution: {integrity: sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==}
     engines: {node: '>=4'}
+    dev: true
+
+  /update-template/1.3.1:
+    resolution: {integrity: sha512-zkfImJdNqLMlhrvmVex/ly4ceBrlHdzI0GvB/U6x7+KfSpgohEl3+aFAOC0t1C1QfIL3EUSrRnsNdC594mO/DA==}
+    hasBin: true
+    dependencies:
+      fast-glob: 3.2.11
+      fs-extra: 9.1.0
+      recursive-readdir: 2.2.2
     dev: true
 
   /uri-js/4.4.1:
