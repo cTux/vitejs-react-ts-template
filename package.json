@@ -55,6 +55,7 @@
     "jest": "^28.1.0",
     "jest-css-modules": "^2.1.0",
     "jest-css-modules-transform": "^4.4.2",
+    "jest-environment-jsdom": "^28.1.0",
     "jest-fetch-mock": "^3.0.3",
     "node-fetch": "^3.2.4",
     "postcss": "^8.4.14",
