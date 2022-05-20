@@ -1,17 +1,14 @@
 import { act } from 'react-dom/test-utils';
-import { EnzymeBaseDriver } from '../../../../tests/EnzymeBaseDriver';
-import { ButtonsLanguage } from '../index';
+import { EnzymeBaseDriver } from '../../../../tests/drivers/EnzymeBaseDriver';
 
-export class ButtonsLanguageDriver extends EnzymeBaseDriver<
-  typeof ButtonsLanguage,
-  unknown
-> {
-  renderFn(props): JSX.Element {
+export class ButtonsLanguageDriver extends EnzymeBaseDriver<unknown> {
+  async renderFn(props): Promise<JSX.Element> {
+    const { ButtonsLanguage } = await import('../index');
     return <ButtonsLanguage {...props} />;
   }
 
   get buttons() {
-    return this.mountedComponentInstance.find('button');
+    return this.renderedComponentInstance.find('button');
   }
 
   btn = {

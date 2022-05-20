@@ -1,4 +1,4 @@
-import { ButtonCounterDriver } from './driver';
+import { ButtonCounterDriver } from './driver.enzyme';
 
 describe('ButtonCounter', () => {
   let driver: ButtonCounterDriver;

@@ -17,5 +17,9 @@ export default defineConfig((configEnv) => {
         generateScopedName,
       },
     },
+    test: {
+      globals: true,
+      setupFiles: './tests/vitest.enzyme.setup.ts',
+    },
   };
 });

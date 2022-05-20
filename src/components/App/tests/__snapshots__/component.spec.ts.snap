@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App > EnzymeAppDriver > should have default view 1`] = `"<div class=\\"HG3jz\\">Loading...</div>"`;
+
+exports[`App > TestingLibraryAppDriver > should have default view 1`] = `"<div><div class=\\"Xzv-g\\"><h1>app.title</h1><button>btn.counter 0</button><div class=\\"s1pQH\\"><button data-qa=\\"btn-en\\">btn.switch-to.en</button><button data-qa=\\"btn-de\\">btn.switch-to.de</button></div></div></div><div><div class=\\"Xzv-g\\"><h1>app.title</h1><button>btn.counter 0</button><div class=\\"s1pQH\\"><button data-qa=\\"btn-en\\">btn.switch-to.en</button><button data-qa=\\"btn-de\\">btn.switch-to.de</button></div></div></div>"`;
+
+exports[`App EnzymeAppDriver should have default view 1`] = `"<div class=\\"loading\\">Loading...</div>"`;
+
+exports[`App TestingLibraryAppDriver should have default view 1`] = `"<div><div class=\\"app\\"><h1>app.title</h1><button>btn.counter 0</button><div class=\\"buttonsContainer\\"><button data-qa=\\"btn-en\\">btn.switch-to.en</button><button data-qa=\\"btn-de\\">btn.switch-to.de</button></div></div></div>"`;

@@ -1,4 +1,4 @@
-import i18next from './i18next.mock';
+import { i18next } from './i18next.mock';
 
 export const useTranslation = () => {
   return {
