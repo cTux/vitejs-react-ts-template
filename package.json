@@ -21,7 +21,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
     "i18next": "^21.8.3",
     "i18next-fetch-backend": "^4.1.2",
     "normalize.css": "^8.0.1",
@@ -79,7 +79,8 @@
     "moduleNameMapper": {
       "\\.(jpg|png|svg|gif)$": "<rootDir>/tests/mocks/file.mock.ts",
       "react-i18next": "<rootDir>/tests/mocks/i18next-react.mock.tsx",
-      "i18next": "<rootDir>/tests/mocks/i18next.mock.ts"
+      "i18next": "<rootDir>/tests/mocks/i18next.mock.ts",
+      "clsx": "<rootDir>/tests/mocks/clsx.jest.mock.ts"
     },
     "transform": {
       "\\.(css|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"

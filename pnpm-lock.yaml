@@ -15,7 +15,7 @@ specifiers:
   '@wojtekmaj/enzyme-adapter-react-17': ^0.6.7
   autoprefixer: ^10.4.7
   c8: ^7.11.3
-  classnames: ^2.3.1
+  clsx: ^1.1.1
   concurrently: ^7.2.0
   enzyme: ^3.11.0
   eslint: ^8.15.0
@@ -48,7 +48,7 @@ specifiers:
   vitest: ^0.12.6
 
 dependencies:
-  classnames: 2.3.1
+  clsx: 1.1.1
   i18next: 21.8.3
   i18next-fetch-backend: 4.1.2
   normalize.css: 8.0.1
@@ -2699,10 +2699,6 @@ packages:
     resolution: {integrity: sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==}
     dev: true
 
-  /classnames/2.3.1:
-    resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==}
-    dev: false
-
   /cliui/7.0.4:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
@@ -2710,6 +2706,11 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
+
+  /clsx/1.1.1:
+    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
+    engines: {node: '>=6'}
+    dev: false
 
   /co/4.6.0:
     resolution: {integrity: sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=}
