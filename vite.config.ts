@@ -19,7 +19,7 @@ export default defineConfig((configEnv) => {
     },
     test: {
       globals: true,
-      setupFiles: './tests/vitest.enzyme.setup.ts',
+      setupFiles: './tests/vitest.setup.ts',
     },
   };
 });

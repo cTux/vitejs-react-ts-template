@@ -10,11 +10,10 @@ export const ButtonsLanguage = () => {
   return (
     <div className={cn.buttonsContainer}>
       {supportedLanguages.map((language: Language) => {
-        // TODO: Create button component
         return (
           <button
             key={language}
-            data-qa={`btn-${language}`}
+            data-testid={`btn-${language}`}
             onClick={() => i18n.changeLanguage(i18nInstance, language)}
           >
             {t(`btn.switch-to.${language}`)}
