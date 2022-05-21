@@ -6,15 +6,19 @@
 * ViteJS
 * Vitest
 
-## Includes:
+## Production bundle includes:
 
 * ReactJS v17
-* TypeScript
 * i18next + react-i18next
-* Normalize.css + SCSS Modules + CLSX
+* Normalize.css + CLSX
 * PWA
+
+## Development dependencies:
+
+* TypeScript
+* SCSS Modules
 * ESLint + Prettier
-* Enzyme + Testing Library
+* Testing Library
 * Husky + Pre-Commit checks
 * GitHub Pages Deployment
 * Storybook

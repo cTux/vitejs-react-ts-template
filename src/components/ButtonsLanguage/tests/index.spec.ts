@@ -1,5 +1,5 @@
 import { SinonSpy, spy } from 'sinon';
-import { ButtonsLanguageDriver } from './driver.enzyme';
+import { ButtonsLanguageDriver } from './driver';
 import { supportedLanguages } from '../supportedLanguages';
 import { i18n } from '../utils/changeLanguage';
 import { Language } from '../types';

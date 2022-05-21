@@ -1,14 +1,15 @@
 import { act } from 'react-dom/test-utils';
-import { EnzymeBaseDriver } from '../../../../tests/drivers/EnzymeBaseDriver';
+import { TestingLibraryBaseDriver } from '../../../../tests/drivers/TestingLibraryBaseDriver';
+import { fireEvent } from '@testing-library/react';
 
-export class ButtonsLanguageDriver extends EnzymeBaseDriver<unknown> {
+export class ButtonsLanguageDriver extends TestingLibraryBaseDriver<unknown> {
   async renderFn(props): Promise<JSX.Element> {
     const { ButtonsLanguage } = await import('../index');
     return <ButtonsLanguage {...props} />;
   }
 
   get buttons() {
-    return this.renderedComponentInstance.find('button');
+    return this.renderedComponentInstance.getAllByRole('button');
   }
 
   btn = {
@@ -18,7 +19,7 @@ export class ButtonsLanguageDriver extends EnzymeBaseDriver<unknown> {
     when: {
       clicked: (lang: string) =>
         act(() => {
-          this.findByDataHook(`btn-${lang}`).at(0).simulate('click');
+          fireEvent.click(this.findByDataHook(`btn-${lang}`).firstChild);
         }),
     },
   };
