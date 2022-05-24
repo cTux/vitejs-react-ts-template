@@ -1,8 +1,0 @@
-name: DependaBot CI
-
-version: 2
-updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
