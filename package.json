@@ -13,6 +13,7 @@
     "rebuild": "pnpm run build:scratch",
     "storybook": "start-storybook",
     "template:update": "update-template https://github.com/cTux/vitejs-react-ts-template",
+    "template:update:dependencies": "npx -p npm-check-updates -u --target minor",
     "test": "pnpm run test:vitest",
     "test:all": "concurrently -n \"vitest,jest\" \"pnpm run test:vitest\" \"pnpm run test:jest\"",
     "test:jest": "jest",
