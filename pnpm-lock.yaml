@@ -32,6 +32,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
   gh-pages: ^4.0.0
+  git-removed-branches: ^2.0.1
   happy-dom: ^4.0.1
   husky: ^8.0.1
   i18next: ^21.8.4
@@ -101,6 +102,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.16.0
   eslint-plugin-prettier: 4.0.0_j7rsahgqtkecno6yauhsgsglf4
   gh-pages: 4.0.0
+  git-removed-branches: 2.0.1
   happy-dom: 4.0.1
   husky: 8.0.1
   jest: 28.1.0_@types+node@16.11.36
@@ -7956,6 +7958,14 @@ packages:
       find-cache-dir: 3.3.2
       fs-extra: 8.1.0
       globby: 6.1.0
+    dev: true
+
+  /git-removed-branches/2.0.1:
+    resolution: {integrity: sha512-0i39Sbar0rN0VjbDG9mRT9pOSUkvQ08LjG3Mzzv0wwdkTrBzHXzMOtJ12hV4kRpVOTwVh5CmKAmXuVVZuVPf+g==}
+    engines: {node: '>=7.10.1'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.6
     dev: true
 
   /github-slugger/1.4.0:
