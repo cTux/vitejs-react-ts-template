@@ -1,4 +1,4 @@
-name: Updating Dependencies CI
+name: Updating Dependencies
 
 on:
   schedule:
