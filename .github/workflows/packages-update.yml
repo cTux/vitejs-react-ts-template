@@ -2,11 +2,12 @@ name: Updating Packages
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/60 * * * *"
 
 jobs:
   package-update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@master
       - name: set remote url

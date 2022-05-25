@@ -2,10 +2,10 @@ name: Updating Dependencies
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/60 * * * *"
 
 jobs:
-  auto-update:
+  package-update:
     runs-on: ubuntu-latest
 
     steps:
