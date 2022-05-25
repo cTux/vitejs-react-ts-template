@@ -2,7 +2,7 @@ name: Updating Dependencies
 
 on:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "*/2 * * * *"
 
 jobs:
   auto-update:
