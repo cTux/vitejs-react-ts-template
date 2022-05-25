@@ -25,6 +25,9 @@ jobs:
 
       - name: Run auto dependency update
         uses: romoh/dependencies-autoupdate@v1
+        env:
+          GITHUB_REPOSITORY: cTux/vitejs-react-ts-template
+          GITHUB_ACTOR: cTux
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           update-command: "'pnpm run template:update:dependencies'"
