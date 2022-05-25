@@ -1,5 +1,5 @@
 {
-  "name": "vitejs-react-ts-boilerplate",
+  "name": "vitejs-react-ts-template",
   "version": "0.4.0",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "scripts": {
@@ -13,6 +13,8 @@
     "storybook": "start-storybook",
     "template:update": "update-template https://github.com/cTux/vitejs-react-ts-template",
     "template:update:dependencies": "npm-check-updates -u --target minor && pnpm run build:scratch",
+    "template:branches:show": "git-removed-branches",
+    "template:branches:delete": "git-removed-branches --prune",
     "test": "pnpm run test:vitest",
     "test:all": "concurrently -n \"vitest,jest\" \"pnpm run test:vitest\" \"pnpm run test:jest\"",
     "test:jest": "jest",
@@ -63,6 +65,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "gh-pages": "^4.0.0",
+    "git-removed-branches": "^2.0.1",
     "happy-dom": "^4.0.1",
     "husky": "^8.0.1",
     "jest": "^28.1.0",
