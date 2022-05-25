@@ -1,5 +1,7 @@
 # ViteJS React+TypeScript Template
 
+[![Running Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/node.js.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/node.js.yml)
+
 ## Uses:
 * NodeJS v16
 * pnpm

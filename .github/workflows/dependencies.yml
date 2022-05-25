@@ -27,4 +27,4 @@ jobs:
         uses: romoh/dependencies-autoupdate@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          update-command: "'pnpm run template:update:dependencies && pnpm i && pnpm run lint && pnpm t'"
+          update-command: "'pnpm run template:update:dependencies'"
