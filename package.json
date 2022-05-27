@@ -1,10 +1,10 @@
 {
-  "name": "vitejs-react-ts-template",
+  "name": "@ctux/vitejs-react-ts-template",
   "version": "0.4.0",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "scripts": {
     "build": "vite build",
-    "build:scratch": "pnpm install && pnpm run lint && pnpm run test && pnpm run build",
+    "build:scratch": "pnpm install && concurrently -n \"pnpm run lint\" \"pnpm run test\" \"pnpm run build\"",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
@@ -111,5 +111,6 @@
     "plugins": {
       "autoprefixer": {}
     }
-  }
+  },
+  "license": "MIT"
 }
