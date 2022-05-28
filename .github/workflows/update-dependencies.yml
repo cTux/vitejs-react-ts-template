@@ -29,7 +29,7 @@ jobs:
         run: pnpm install
 
       - name: Run command
-        uses: ctux/simple-pull-request-gh-action@1.0.1-rc
+        uses: ctux/simple-pull-request-gh-action@1.0.2-rc
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: "'pnpm run update:dependencies'"
