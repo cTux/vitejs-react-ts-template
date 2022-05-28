@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "build:scratch": "pnpm install --no-frozen-lockfile && pnpm run build:check",
+    "build:scratch": "pnpm install && pnpm run build:check",
     "build:check": "pnpm exec concurrently -n Lint,Build,Test \"pnpm run lint\" \"pnpm run build\" \"pnpm run test\"",
-    "build:audit": "pnpm audit && pnpm audit --fix",
+    "build:audit": "pnpm audit --fix",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
