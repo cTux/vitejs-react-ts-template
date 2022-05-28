@@ -4,7 +4,8 @@
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "scripts": {
     "build": "vite build",
-    "build:scratch": "pnpm install --no-frozen-lockfile && pnpm exec concurrently -n \"pnpm run lint\" \"pnpm run test\" \"pnpm run build\"",
+    "build:scratch": "pnpm install --no-frozen-lockfile && pnpm run build:check",
+    "build:check": "pnpm exec concurrently -n Lint,Build,Test \"pnpm run lint\" \"pnpm run build\" \"pnpm run test\"",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
@@ -16,7 +17,6 @@
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
     "test": "pnpm run test:vitest",
-    "test:all": "concurrently -n \"vitest,jest\" \"pnpm run test:vitest\" \"pnpm run test:jest\"",
     "test:jest": "jest",
     "test:jest:coverage": "jest --coverage",
     "test:jest:watch": "jest --watch",

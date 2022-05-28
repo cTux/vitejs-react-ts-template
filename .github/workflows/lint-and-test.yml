@@ -30,8 +30,5 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
 
-      - name: Installing dependencies
-        run: pnpm install --no-frozen-lockfile
-
       - name: Running linter and tests
-        run: pnpm exec concurrently -n "pnpm run lint" "pnpm run build" "pnpm run test"
+        run: pnpm run build:scratch
