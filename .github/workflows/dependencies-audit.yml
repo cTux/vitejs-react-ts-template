@@ -1,4 +1,4 @@
-name: Audit Dependencies
+name: Dependencies Audit
 
 on:
   schedule:
@@ -29,11 +29,10 @@ jobs:
         run: pnpm install
 
       - name: Run command
-        uses: ctux/simple-pull-request-gh-action@1.0.2-rc
+        uses: ctux/simple-pull-request-gh-action@1.0.3-rc
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: "'pnpm run template:audit:dependencies'"
           branch_main_name: "'master'"
-          branch_pr_name: "'audit-dependencies-fix'"
-          path: ""
-          commit_message: "'fix(dependencies): updated after audit'"
+          branch_pr_name: "'dependencies-audit'"
+          commit_message: "'fix(dependencies): updates after audit'"
