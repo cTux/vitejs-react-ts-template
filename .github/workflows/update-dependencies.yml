@@ -26,7 +26,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Installing modules
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Run command
         uses: ctux/simple-pull-request-gh-action@1.0.2-rc
