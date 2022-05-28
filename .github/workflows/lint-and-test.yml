@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  lint-and-build:
 
     runs-on: ubuntu-latest
 
@@ -16,14 +16,22 @@ jobs:
         node-version: [16.x]
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2.0.1
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Using pnpm
+        uses: pnpm/action-setup@v2.0.1
         with:
           version: latest
-      - name: Use Node.js ${{ matrix.node-version }}
+
+      - name: Use node
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: '.nvmrc'
           cache: 'pnpm'
-      - run: pnpm install --no-frozen-lockfile
-      - run: pnpx concurrently -n "pnpm run lint" "pnpm run build" "pnpm run test"
+
+      - name: Installing dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Running linter and tests
+        run: pnpx concurrently -n "pnpm run lint" "pnpm run build" "pnpm run test"
