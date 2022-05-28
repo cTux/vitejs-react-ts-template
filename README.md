@@ -1,6 +1,10 @@
 # ViteJS React+TypeScript Template
 
-[![Running Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/node.js.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/node.js.yml)
+[![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
+
+[![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)
+
+[![Running Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)
 
 ## Uses:
 * NodeJS v16
