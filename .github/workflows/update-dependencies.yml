@@ -1,0 +1,39 @@
+name: Updating Dependencies
+
+on:
+  schedule:
+    - cron: "*/60 * * * *"
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the head commit of the branch
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: latest
+
+      - name: Use node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Installing modules
+        run: pnpm install
+
+      - name: Run command
+        uses: ctux/simple-pull-request-gh-action@1.0.1-rc
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          command: "'pnpm run update:dependencies'"
+          branch_main_name: "'main'"
+          branch_pr_name: "'pnpm-dependencies'"
+          path: ""
+          commit_message: "'chore(dependencies): updated automatically'"
