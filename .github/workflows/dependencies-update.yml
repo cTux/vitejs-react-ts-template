@@ -25,9 +25,6 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'pnpm'
 
-      - name: Installing modules
-        run: pnpm install
-
       - name: Run command
         uses: ctux/simple-pull-request-gh-action@1.0.3-rc
         with:
