@@ -14,7 +14,7 @@
     "preview": "vite preview",
     "storybook": "start-storybook",
     "template:update": "update-template https://github.com/cTux/vitejs-react-ts-template",
-    "template:update:dependencies": "pnpm exec npm-check-updates -u --target minor && pnpm install",
+    "template:update:dependencies": "pnpm install && pnpm exec npm-check-updates -u --target minor && pnpm install",
     "template:audit:dependencies": "pnpm audit --fix && pnpm install",
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
