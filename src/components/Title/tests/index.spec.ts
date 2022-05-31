@@ -9,7 +9,7 @@ describe('Title', () => {
 
   it('should render w/o errors and exist', async () => {
     await driver.render();
-    expect(driver.component.get.text()).toEqual('app.title');
+    expect(driver.component.get.text()).toEqual('App');
   });
 
   it('should render custom title', async () => {

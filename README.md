@@ -15,7 +15,6 @@
 ## Production bundle includes:
 
 * ReactJS v17
-* i18next + react-i18next
 * Normalize.css + CLSX
 * PWA
 
