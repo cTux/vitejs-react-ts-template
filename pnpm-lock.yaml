@@ -24,7 +24,7 @@ specifiers:
   '@testing-library/dom': ^8.13.0
   '@testing-library/react': ^12.1.5
   '@types/jest': ^27.5.1
-  '@types/node': ^16.11.36
+  '@types/node': ^16.11.38
   '@types/react': ^17.0.45
   '@types/react-dom': ^17.0.17
   '@types/sinon': ^10.0.11
@@ -89,7 +89,7 @@ devDependencies:
   '@testing-library/dom': 8.13.0
   '@testing-library/react': 12.1.5_sfoxds7t5ydpegc3knd667wn6m
   '@types/jest': 27.5.1
-  '@types/node': 16.11.36
+  '@types/node': 16.11.38
   '@types/react': 17.0.45
   '@types/react-dom': 17.0.17
   '@types/sinon': 10.0.11
@@ -106,7 +106,7 @@ devDependencies:
   git-removed-branches: 2.0.1
   happy-dom: 4.1.0
   husky: 8.0.1
-  jest: 28.1.0_@types+node@16.11.36
+  jest: 28.1.0_@types+node@16.11.38
   jest-css-modules: 2.1.0
   jest-css-modules-transform: 4.4.2
   jest-environment-jsdom: 28.1.0
@@ -2509,7 +2509,7 @@ packages:
       '@storybook/store': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
       '@storybook/theming': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
       '@storybook/ui': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       '@types/webpack': 4.41.32
       autoprefixer: 9.8.8
       babel-loader: 8.2.5_6sui7bpcrc7jx7yypfyfijkzxi
@@ -2760,7 +2760,7 @@ packages:
       '@babel/register': 7.17.7_@babel+core@7.18.0
       '@storybook/node-logger': 6.5.6
       '@storybook/semver': 7.3.2
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       '@types/pretty-hrtime': 1.0.1
       babel-loader: 8.2.5_6sui7bpcrc7jx7yypfyfijkzxi
       babel-plugin-macros: 3.1.0
@@ -2837,7 +2837,7 @@ packages:
       '@storybook/semver': 7.3.2
       '@storybook/store': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
       '@storybook/telemetry': 6.5.6_ayycmnu6ctgy4baym4n633rb7y
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       '@types/node-fetch': 2.6.1
       '@types/pretty-hrtime': 1.0.1
       '@types/webpack': 4.41.32
@@ -3029,7 +3029,7 @@ packages:
       '@storybook/node-logger': 6.5.6
       '@storybook/theming': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
       '@storybook/ui': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       '@types/webpack': 4.41.32
       babel-loader: 8.2.5_6sui7bpcrc7jx7yypfyfijkzxi
       case-sensitive-paths-webpack-plugin: 2.4.0
@@ -3212,7 +3212,7 @@ packages:
       '@storybook/semver': 7.3.2
       '@storybook/store': 6.5.6_sfoxds7t5ydpegc3knd667wn6m
       '@types/estree': 0.0.51
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       '@types/webpack-env': 1.17.0
       acorn: 7.4.1
       acorn-jsx: 5.3.2_acorn@7.4.1
@@ -3680,8 +3680,8 @@ packages:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
     dev: true
 
-  /@types/node/16.11.36:
-    resolution: {integrity: sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==}
+  /@types/node/16.11.38:
+    resolution: {integrity: sha512-hjO/0K140An3GWDw2HJfq7gko3wWeznbjXgg+rzPdVzhe198hp4x2i1dgveAOEiFKd8sOilAxzoSJiVv5P/CUg==}
     dev: true
 
   /@types/node/17.0.14:
@@ -9128,7 +9128,7 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli/28.1.0_@types+node@16.11.36:
+  /jest-cli/28.1.0_@types+node@16.11.38:
     resolution: {integrity: sha512-fDJRt6WPRriHrBsvvgb93OxgajHHsJbk4jZxiPqmZbMDRcHskfJBBfTyjFko0jjfprP544hOktdSi9HVgl4VUQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -9145,7 +9145,7 @@ packages:
       exit: 0.1.2
       graceful-fs: 4.2.9
       import-local: 3.1.0
-      jest-config: 28.1.0_@types+node@16.11.36
+      jest-config: 28.1.0_@types+node@16.11.38
       jest-util: 28.1.0
       jest-validate: 28.1.0
       prompts: 2.4.2
@@ -9156,7 +9156,7 @@ packages:
       - ts-node
     dev: true
 
-  /jest-config/28.1.0_@types+node@16.11.36:
+  /jest-config/28.1.0_@types+node@16.11.38:
     resolution: {integrity: sha512-aOV80E9LeWrmflp7hfZNn/zGA4QKv/xsn2w8QCBP0t0+YqObuCWTSgNbHJ0j9YsTuCO08ZR/wsvlxqqHX20iUA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     peerDependencies:
@@ -9171,7 +9171,7 @@ packages:
       '@babel/core': 7.18.0
       '@jest/test-sequencer': 28.1.0
       '@jest/types': 28.1.0
-      '@types/node': 16.11.36
+      '@types/node': 16.11.38
       babel-jest: 28.1.0_@babel+core@7.18.0
       chalk: 4.1.2
       ci-info: 3.3.0
@@ -9652,7 +9652,7 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jest/28.1.0_@types+node@16.11.36:
+  /jest/28.1.0_@types+node@16.11.38:
     resolution: {integrity: sha512-TZR+tHxopPhzw3c3560IJXZWLNHgpcz1Zh0w5A65vynLGNcg/5pZ+VildAd7+XGOu6jd58XMY/HNn0IkZIXVXg==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -9664,7 +9664,7 @@ packages:
     dependencies:
       '@jest/core': 28.1.0
       import-local: 3.1.0
-      jest-cli: 28.1.0_@types+node@16.11.36
+      jest-cli: 28.1.0_@types+node@16.11.38
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
@@ -13580,7 +13580,7 @@ packages:
       '@types/jest': 27.5.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
-      jest: 28.1.0_@types+node@16.11.36
+      jest: 28.1.0_@types+node@16.11.38
       jest-util: 28.1.0
       json5: 2.2.1
       lodash.memoize: 4.1.2
