@@ -23,7 +23,7 @@ specifiers:
   '@storybook/testing-library': ^0.0.11
   '@testing-library/dom': ^8.13.0
   '@testing-library/react': ^12.1.5
-  '@types/jest': ^27.5.1
+  '@types/jest': ^27.5.2
   '@types/node': ^16.11.38
   '@types/react': ^17.0.45
   '@types/react-dom': ^17.0.17
@@ -88,7 +88,7 @@ devDependencies:
   '@storybook/testing-library': 0.0.11_sfoxds7t5ydpegc3knd667wn6m
   '@testing-library/dom': 8.13.0
   '@testing-library/react': 12.1.5_sfoxds7t5ydpegc3knd667wn6m
-  '@types/jest': 27.5.1
+  '@types/jest': 27.5.2
   '@types/node': 16.11.38
   '@types/react': 17.0.45
   '@types/react-dom': 17.0.17
@@ -119,7 +119,7 @@ devDependencies:
   require-from-string: 2.0.2
   sass: 1.52.1
   sinon: 14.0.0
-  ts-jest: 28.0.3_qvwkh7p5vdw7psr53yxwiknsqy
+  ts-jest: 28.0.3_htumzhcplg2325zrna2zhtr3ay
   typescript: 4.7.2
   update-template: 1.3.1
   vite: 2.9.9_sass@1.52.1
@@ -3626,8 +3626,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.5.1:
-    resolution: {integrity: sha512-fUy7YRpT+rHXto1YlL+J9rs0uLGyiqVt3ZOTQR+4ROc47yNl8WLdVLgUloBRhOxP1PZvguHl44T3H0wAWxahYQ==}
+  /@types/jest/27.5.2:
+    resolution: {integrity: sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==}
     dependencies:
       jest-matcher-utils: 27.4.6
       pretty-format: 27.4.6
@@ -13556,7 +13556,7 @@ packages:
     engines: {node: '>=6.10'}
     dev: true
 
-  /ts-jest/28.0.3_qvwkh7p5vdw7psr53yxwiknsqy:
+  /ts-jest/28.0.3_htumzhcplg2325zrna2zhtr3ay:
     resolution: {integrity: sha512-HzgbEDQ2KgVtDmpXToqAcKTyGHdHsG23i/iUjfxji92G5eT09S1m9UHZd7csF0Bfgh9txM4JzwHnv7r1waFPlw==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
@@ -13578,7 +13578,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.18.0
-      '@types/jest': 27.5.1
+      '@types/jest': 27.5.2
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 28.1.0_@types+node@16.11.38
