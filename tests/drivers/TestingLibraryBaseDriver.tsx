@@ -1,8 +1,8 @@
 import { fireEvent, render, RenderResult } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
-import { BaseDriver } from './BaseDriver';
+import { BaseDriverTypes } from './BaseDriver.types';
 
-export class TestingLibraryBaseDriver<P> implements BaseDriver<P> {
+export class TestingLibraryBaseDriver<P> implements BaseDriverTypes<P> {
   protected renderedComponentInstance: RenderResult | undefined;
 
   async renderFn(props: Partial<P> = {}): Promise<JSX.Element> {
