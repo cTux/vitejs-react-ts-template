@@ -1,1 +1,1 @@
-ignores: ["@types/*", "@testing-library/*"]
+ignores: ["concurrently", "typescript", "@types/*", "@testing-library/*"]
