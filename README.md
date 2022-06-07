@@ -1,26 +1,26 @@
 # ViteJS React+TypeScript Template
 
-[![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
+| Actions                                                                                                                                                                                                                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml) |
+| [![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)    |
+| [![Executing Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)        |
 
-[![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)
-
-[![Running Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)
-
-## Uses:
+## Template's core:
 * NodeJS v16
-* pnpm
-* ViteJS
-* Vitest
+* [pnpm](https://pnpm.io/)
+* [ViteJS](https://vitejs.dev/)
+* [Vitest](https://vitest.dev/)
 
 ## Production bundle includes:
 
-* ReactJS v17
+* ReactJS v18
 * Normalize.css + CLSX
-* PWA
+* PWA manifest
 
 ## Development dependencies:
 
-* TypeScript
+* TypeScript v4
 * SCSS Modules
 * ESLint + Prettier
 * Testing Library
