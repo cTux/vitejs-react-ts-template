@@ -26,4 +26,3 @@
 * Testing Library
 * Husky + Pre-Commit checks
 * GitHub Pages Deployment
-* Storybook

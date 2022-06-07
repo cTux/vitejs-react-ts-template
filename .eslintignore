@@ -1,7 +1,6 @@
 node_modules
 dist
 .idea
-storybook-static
 coverage
 .github
 .husky
