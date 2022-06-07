@@ -12,8 +12,8 @@ export class TestingLibraryBaseDriver<P> implements BaseDriver<P> {
   async render(props: Partial<P> = {}) {
     await this.beforeRender();
     const component = await this.renderFn(props);
-    act(() => {
-      this.renderedComponentInstance = render(component);
+    await act(async () => {
+      this.renderedComponentInstance = await render(component);
     });
     await this.afterRender();
   }
