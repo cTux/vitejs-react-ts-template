@@ -1,4 +1,4 @@
-export interface BaseDriver<P> {
+export interface BaseDriverTypes<P> {
   render: (props?: P) => Promise<void>;
   component: {
     get: {
