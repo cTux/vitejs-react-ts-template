@@ -5,24 +5,20 @@
   "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "build:storybook": "build-storybook",
     "build:scratch": "pnpm install && pnpm run build:check",
-    "build:check": "pnpm exec concurrently -n Lint,Build,Storybook,Test \"pnpm run lint\" \"pnpm run build\" \"pnpm run build:storybook\" \"pnpm run test\"",
+    "build:check": "pnpm exec concurrently -n Lint,Build,Test,Unused \"pnpm run lint\" \"pnpm run build\" \"pnpm run test\" \"pnpm run template:check:dependencies\"",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
     "prepare": "husky install",
     "preview": "vite preview",
-    "storybook": "start-storybook",
     "template:update": "update-template https://github.com/cTux/vitejs-react-ts-template",
     "template:update:dependencies": "pnpm install && pnpm exec npm-check-updates -u --target minor && pnpm install",
     "template:audit:dependencies": "pnpm audit --fix && pnpm install",
+    "template:check:dependencies": "pnpm exec depcheck",
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
     "test": "pnpm run test:vitest",
-    "test:jest": "jest",
-    "test:jest:coverage": "jest --coverage",
-    "test:jest:watch": "jest --watch",
     "test:vitest": "vitest --run --globals --dom",
     "test:vitest:coverage": "vitest --run --coverage --globals --dom",
     "test:vitest:watch": "vitest --globals --dom",
@@ -35,22 +31,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7",
-    "@mdx-js/react": "^2.1.1",
-    "@storybook/addon-docs": "^6.5.7",
-    "@storybook/addons": "^6.5.7",
-    "@storybook/builder-vite": "^0.1.36",
-    "@storybook/channel-postmessage": "^6.5.7",
-    "@storybook/channel-websocket": "^6.5.7",
-    "@storybook/client-api": "^6.5.7",
-    "@storybook/core-common": "^6.5.7",
-    "@storybook/node-logger": "^6.5.7",
-    "@storybook/preview-web": "^6.5.7",
-    "@storybook/react": "^6.5.7",
-    "@storybook/testing-library": "^0.0.11",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/react": "^12.1.5",
-    "@types/jest": "^28.1.1",
     "@types/node": "^16.11.38",
     "@types/react": "^17.0.45",
     "@types/react-dom": "^17.0.17",
@@ -58,9 +40,9 @@
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "@vitejs/plugin-react": "^1.3.2",
-    "autoprefixer": "^10.4.7",
     "c8": "^7.11.3",
     "concurrently": "^7.2.1",
+    "depcheck": "^1.4.3",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -68,47 +50,15 @@
     "git-removed-branches": "^2.0.1",
     "happy-dom": "^5.0.0",
     "husky": "^8.0.1",
-    "jest": "^28.1.1",
-    "jest-css-modules": "^2.1.0",
-    "jest-css-modules-transform": "^4.4.2",
-    "jest-environment-jsdom": "^28.1.1",
-    "jest-fetch-mock": "^3.0.3",
     "node-fetch": "^3.2.5",
     "npm-check-updates": "^13.1.1",
-    "postcss": "^8.4.14",
-    "postcss-scss": "^4.0.4",
     "prettier": "^2.6.2",
-    "require-from-string": "^2.0.2",
     "sass": "^1.52.2",
-    "sinon": "^14.0.0",
-    "ts-jest": "^28.0.4",
     "typescript": "^4.7.3",
     "update-template": "^1.3.1",
     "vite": "^2.9.10",
     "vite-plugin-pwa": "^0.12.0",
-    "vitest": "^0.14.1",
-    "webpack": "^5.73.0"
-  },
-  "jest": {
-    "automock": false,
-    "preset": "ts-jest",
-    "testEnvironment": "jsdom",
-    "setupFiles": [
-      "<rootDir>/tests/jest.setup.ts"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|png|svg|gif)$": "<rootDir>/tests/mocks/file.mock.ts",
-      "clsx": "<rootDir>/tests/mocks/clsx.jest.mock.ts"
-    },
-    "transform": {
-      "\\.(css|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"
-    }
-  },
-  "postcss": {
-    "modules": true,
-    "plugins": {
-      "autoprefixer": {}
-    }
+    "vitest": "^0.14.1"
   },
   "pnpm": {
     "overrides": {
