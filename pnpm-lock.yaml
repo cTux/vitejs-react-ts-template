@@ -32,7 +32,7 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.5
   normalize.css: ^8.0.1
-  npm-check-updates: ^13.1.1
+  npm-check-updates: ^13.1.2
   prettier: ^2.6.2
   react: ^18.1.0
   react-dom: ^18.1.0
@@ -71,7 +71,7 @@ devDependencies:
   happy-dom: 5.0.0
   husky: 8.0.1
   node-fetch: 3.2.5
-  npm-check-updates: 13.1.1
+  npm-check-updates: 13.1.2
   prettier: 2.6.2
   sass: 1.52.2
   typescript: 4.7.3
@@ -4505,8 +4505,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/13.1.1:
-    resolution: {integrity: sha512-f4gLbUJJh5qvkNvrSG3b05y3ZvyZ4Sl3Uk95DSyCjIWwpwmAwzU9dMCA/Gg2AmIKqkH4ml6X9kxcZsu+tAd94g==}
+  /npm-check-updates/13.1.2:
+    resolution: {integrity: sha512-ZXfXEoqqMnDNuR2LNLXBsNPTRCvo5JcH+Wo6YoSAh5EYcPqKzTkRSPB82ujPTbIEU7BtrwXbx3p2Y+IXK3dmdA==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
@@ -5184,13 +5184,13 @@ packages:
     dev: true
 
   /responselike/1.0.2:
-    resolution: {integrity: sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec=}
+    resolution: {integrity: sha512-/Fpe5guzJk1gPqdJLJR5u7eG/gNY4nImjbRDaVWVMRhne55TCmj2i9Q+54PBRfatRC8v/rIiv9BN0pMd9OV5EQ==}
     dependencies:
       lowercase-keys: 1.0.1
     dev: true
 
   /retry/0.12.0:
-    resolution: {integrity: sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=}
+    resolution: {integrity: sha512-9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==}
     engines: {node: '>= 4'}
     dev: true
 
