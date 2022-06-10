@@ -39,7 +39,7 @@ specifiers:
   sass: ^1.52.3
   typescript: ^4.7.3
   update-template: ^1.3.1
-  vite: ^2.9.10
+  vite: ^2.9.11
   vite-plugin-pwa: ^0.12.0
   vitest: ^0.14.1
 
@@ -76,8 +76,8 @@ devDependencies:
   sass: 1.52.3
   typescript: 4.7.3
   update-template: 1.3.1
-  vite: 2.9.10_sass@1.52.3
-  vite-plugin-pwa: 0.12.0_vite@2.9.10
+  vite: 2.9.11_sass@1.52.3
+  vite-plugin-pwa: 0.12.0_vite@2.9.11
   vitest: 0.14.1_hyejdtyced4xe6mtrgfawstijq
 
 packages:
@@ -5887,7 +5887,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-plugin-pwa/0.12.0_vite@2.9.10:
+  /vite-plugin-pwa/0.12.0_vite@2.9.11:
     resolution: {integrity: sha512-KYD+cnS5ExLF3T28NkfzBLZ53ehHlp+qMhHGFNh0zlVGpFHrJkL2v9wd4AMi7ZkBTffgeNatIFiv8rhCsMSxBQ==}
     peerDependencies:
       vite: ^2.0.0
@@ -5896,7 +5896,7 @@ packages:
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
       rollup: 2.74.1
-      vite: 2.9.10_sass@1.52.3
+      vite: 2.9.11_sass@1.52.3
       workbox-build: 6.5.3
       workbox-window: 6.5.3
     transitivePeerDependencies:
@@ -5904,8 +5904,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/2.9.10_sass@1.52.3:
-    resolution: {integrity: sha512-TwZRuSMYjpTurLqXspct+HZE7ONiW9d+wSWgvADGxhDPPyoIcNywY+RX4ng+QpK30DCa1l/oZgi2PLZDibhzbQ==}
+  /vite/2.9.11_sass@1.52.3:
+    resolution: {integrity: sha512-h1n8bAN5Psv/V+RAY3P6OtYyGSFQdusgYWiLRAk41qY7rSyH4K5Jq+RUXztzyPVB0oHbnXPUuS2Aj44jucViUA==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -5957,7 +5957,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.3
       tinyspy: 0.3.2
-      vite: 2.9.10_sass@1.52.3
+      vite: 2.9.11_sass@1.52.3
     transitivePeerDependencies:
       - less
       - sass
