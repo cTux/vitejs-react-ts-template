@@ -28,30 +28,30 @@ specifiers:
   eslint-plugin-prettier: ^4.0.0
   gh-pages: ^4.0.0
   git-removed-branches: ^2.0.1
-  happy-dom: ^5.2.0
+  happy-dom: ^5.3.1
   husky: ^8.0.1
   node-fetch: ^3.2.6
   normalize.css: ^8.0.1
   npm-check-updates: ^13.1.5
   prettier: ^2.7.0
-  react: ^18.1.0
-  react-dom: ^18.1.0
+  react: ^18.2.0
+  react-dom: ^18.2.0
   sass: ^1.52.3
   typescript: ^4.7.3
   update-template: ^1.3.1
   vite: ^2.9.12
   vite-plugin-pwa: ^0.12.0
-  vitest: ^0.14.2
+  vitest: ^0.15.0
 
 dependencies:
   clsx: 1.1.1
   normalize.css: 8.0.1
-  react: 18.1.0
-  react-dom: 18.1.0_react@18.1.0
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
   '@testing-library/dom': 8.13.0
-  '@testing-library/react': 13.3.0_ef5jwxihqo6n7gxfmzogljlgcm
+  '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/jest': 28.1.1
   '@types/node': 16.11.39
   '@types/react': 18.0.12
@@ -68,7 +68,7 @@ devDependencies:
   eslint-plugin-prettier: 4.0.0_nguwan5pqsajixjz57ffz7bkde
   gh-pages: 4.0.0
   git-removed-branches: 2.0.1
-  happy-dom: 5.2.0
+  happy-dom: 5.3.1
   husky: 8.0.1
   node-fetch: 3.2.6
   npm-check-updates: 13.1.5
@@ -78,7 +78,7 @@ devDependencies:
   update-template: 1.3.1
   vite: 2.9.12_sass@1.52.3
   vite-plugin-pwa: 0.12.0_vite@2.9.12
-  vitest: 0.14.2_hyejdtyced4xe6mtrgfawstijq
+  vitest: 0.15.0_zhzpsuapzonovywfd7m3cgkajy
 
 packages:
 
@@ -1558,7 +1558,7 @@ packages:
       pretty-format: 27.4.6
     dev: true
 
-  /@testing-library/react/13.3.0_ef5jwxihqo6n7gxfmzogljlgcm:
+  /@testing-library/react/13.3.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1568,8 +1568,8 @@ packages:
       '@babel/runtime': 7.18.0
       '@testing-library/dom': 8.13.0
       '@types/react-dom': 18.0.5
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: true
 
   /@tootallnate/once/2.0.0:
@@ -3545,8 +3545,8 @@ packages:
     resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==}
     dev: true
 
-  /happy-dom/5.2.0:
-    resolution: {integrity: sha512-WbMaOZjadH7/c15U1I1GheswXX12g/QxTPjs9gYHZQGl+Xx9X5eQEj84BQ5ivjFLFR6oJ56lL5+jcesXP0FLjg==}
+  /happy-dom/5.3.1:
+    resolution: {integrity: sha512-zVb0VUIK73lMZR4e9ntaEQSRTf8/Rrz9MlO2VQMOn68aZAC3qoMPS/81Rkfva4vMR+bKXDqkeHiw7HumvvBmag==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -5001,14 +5001,14 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
@@ -5019,8 +5019,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -5261,8 +5261,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
 
@@ -5675,11 +5675,11 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: true
 
   /tr46/1.0.1:
-    resolution: {integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=}
+    resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
       punycode: 2.1.1
     dev: true
@@ -5739,7 +5739,7 @@ packages:
     dev: true
 
   /typedarray/0.0.6:
-    resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
+    resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
   /typescript/4.7.3:
@@ -5929,8 +5929,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.14.2_hyejdtyced4xe6mtrgfawstijq:
-    resolution: {integrity: sha512-vXQUl8OUCqHmxKWscMGL+6Xl1pBJmYHZ8N85iNpLGrirAC2vhspu7b73ShRcLonmZT44BYZW+LBAVvn0L4jyVA==}
+  /vitest/0.15.0_zhzpsuapzonovywfd7m3cgkajy:
+    resolution: {integrity: sha512-ofXZ8tBYAkVJpTpkaGruBh9nG6lO9cs04IdFpneDblCwBpncnlpEgZvlF3XWF4lSsklPe9le4MO8+j90DnsX+g==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -5950,10 +5950,11 @@ packages:
     dependencies:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
+      '@types/node': 17.0.14
       c8: 7.11.3
       chai: 4.3.6
       debug: 4.3.4
-      happy-dom: 5.2.0
+      happy-dom: 5.3.1
       local-pkg: 0.4.1
       tinypool: 0.1.3
       tinyspy: 0.3.2
@@ -5971,7 +5972,7 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
     dev: true
 
   /webidl-conversions/4.0.2:
@@ -5996,7 +5997,7 @@ packages:
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
