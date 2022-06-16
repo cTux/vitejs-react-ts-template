@@ -13,7 +13,7 @@ specifiers:
   '@testing-library/react': ^13.3.0
   '@types/jest': ^28.1.1
   '@types/node': ^16.11.41
-  '@types/react': ^18.0.12
+  '@types/react': ^18.0.13
   '@types/react-dom': ^18.0.5
   '@types/sinon': ^10.0.11
   '@typescript-eslint/eslint-plugin': ^5.28.0
@@ -54,7 +54,7 @@ devDependencies:
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/jest': 28.1.1
   '@types/node': 16.11.41
-  '@types/react': 18.0.12
+  '@types/react': 18.0.13
   '@types/react-dom': 18.0.5
   '@types/sinon': 10.0.11
   '@typescript-eslint/eslint-plugin': 5.28.0_7yumg2qjgbp7maccqlfhx2vudu
@@ -1663,11 +1663,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.12
+      '@types/react': 18.0.13
     dev: true
 
-  /@types/react/18.0.12:
-    resolution: {integrity: sha512-duF1OTASSBQtcigUvhuiTB1Ya3OvSy+xORCiEf20H0P0lzx+/KeVsA99U5UjLXSbyo1DRJDlLKqTeM1ngosqtg==}
+  /@types/react/18.0.13:
+    resolution: {integrity: sha512-psqptIYQxGUFuGYwP3KCFVtPTkMpIcrqFmtKblWEUQhLuYLpHBwJkXhjp6eHfDM5IbyskY4x7qQpLedEsPkHlA==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
