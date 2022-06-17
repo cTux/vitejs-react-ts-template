@@ -6,3 +6,4 @@ dist-ssr
 .idea
 *.log
 coverage
+.vitest-result.json
