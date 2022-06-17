@@ -32,7 +32,7 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.6
   normalize.css: ^8.0.1
-  npm-check-updates: ^13.1.5
+  npm-check-updates: ^14.0.1
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -71,7 +71,7 @@ devDependencies:
   happy-dom: 5.3.1
   husky: 8.0.1
   node-fetch: 3.2.6
-  npm-check-updates: 13.1.5
+  npm-check-updates: 14.0.1
   prettier: 2.7.1
   sass: 1.52.3
   typescript: 4.7.3
@@ -4516,8 +4516,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/13.1.5:
-    resolution: {integrity: sha512-vAVYlrrxJIPH/R5mxMzrNwP33hYflvk7oQqPjPOySCavCFwhXKmfK5sn/rogyebg7cLnECiDxsczGqvTOEBRAA==}
+  /npm-check-updates/14.0.1:
+    resolution: {integrity: sha512-CjHKxcJur/OiVc2GKBagUrzDsXL8JJC71rNVv2mC7eNA6w/ebe3POx9x46ay4p3woSxJOa7hYWNn1UwL7jgHug==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
@@ -6222,7 +6222,7 @@ packages:
     dev: true
 
   /wrappy/1.0.2:
-    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
     dev: true
 
   /write-file-atomic/3.0.3:
