@@ -33,7 +33,7 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.6
   normalize.css: ^8.0.1
-  npm-check-updates: ^14.0.2
+  npm-check-updates: ^14.1.1
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -72,7 +72,7 @@ devDependencies:
   happy-dom: 5.3.1
   husky: 8.0.1
   node-fetch: 3.2.6
-  npm-check-updates: 14.0.2
+  npm-check-updates: 14.1.1
   prettier: 2.7.1
   sass: 1.53.0
   typescript: 4.7.4
@@ -4161,8 +4161,8 @@ packages:
       json-buffer: 3.0.1
     dev: true
 
-  /kleur/3.0.3:
-    resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
+  /kleur/4.1.4:
+    resolution: {integrity: sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==}
     engines: {node: '>=6'}
     dev: true
 
@@ -4553,8 +4553,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/14.0.2:
-    resolution: {integrity: sha512-rVetP51QHbbbcDhTBkQv+h+EEZbLx1ehPgqT6F9MH3Z23O8tS2Jb7PWusIWCM04qhp2IXu6D3u1sjagG0H7SLw==}
+  /npm-check-updates/14.1.1:
+    resolution: {integrity: sha512-lVGckd/SR9lpCPV3WhY/LbhqQRV6V7jYkN5wSp49P+ER2xCgKGewE1i5kSCBBnNG91tcQo9CfBGhX1KY9t7DCg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
@@ -4576,7 +4576,7 @@ packages:
       pacote: 13.6.0
       parse-github-url: 1.0.2
       progress: 2.0.3
-      prompts: 2.4.2
+      prompts-ncu: 2.5.0
       rc-config-loader: 4.1.0
       remote-git-tags: 3.0.0
       rimraf: 3.0.2
@@ -4973,11 +4973,11 @@ packages:
       asap: 2.0.6
     dev: true
 
-  /prompts/2.4.2:
-    resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
+  /prompts-ncu/2.5.0:
+    resolution: {integrity: sha512-a9WdInrG7zSlmfzDszmF3r8O4grZRI8+ChV0LtagHRT4dH7F+kxkrwFPGxeS83FZgAGBx3AXoLP+c4kGJb1P3w==}
     engines: {node: '>= 6'}
     dependencies:
-      kleur: 3.0.3
+      kleur: 4.1.4
       sisteransi: 1.0.5
     dev: true
 
