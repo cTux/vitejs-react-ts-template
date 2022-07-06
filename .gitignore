@@ -4,6 +4,7 @@ dist
 dist-ssr
 *.local
 .idea
+logs
 *.log
 coverage
 .vitest-result.json

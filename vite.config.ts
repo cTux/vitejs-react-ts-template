@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import nightwatchPlugin from 'vite-plugin-nightwatch';
 
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => {
@@ -11,7 +12,17 @@ export default defineConfig((configEnv) => {
   return {
     base: './',
     publicDir: './src/assets',
-    plugins: [react(), VitePWA()],
+    optimizeDeps: {
+      include: ['react', 'react-dom'],
+    },
+    plugins: [
+      react(),
+      VitePWA(),
+      nightwatchPlugin({
+        componentType: 'react',
+        renderPage: './index.html',
+      }),
+    ],
     css: {
       modules: {
         generateScopedName,
