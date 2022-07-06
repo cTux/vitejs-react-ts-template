@@ -8,3 +8,4 @@ logs
 *.log
 coverage
 .vitest-result.json
+tests_output
