@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { VitePWA } from 'vite-plugin-pwa';
+import { VitePWA as vitePWAPlugin } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => {
@@ -11,12 +11,8 @@ export default defineConfig((configEnv) => {
   return {
     base: './',
     publicDir: './src/assets',
-    plugins: [react(), VitePWA()],
-    css: {
-      modules: {
-        generateScopedName,
-      },
-    },
+    plugins: [react(), vitePWAPlugin()],
+    css: { modules: { generateScopedName } },
     test: {
       globals: true,
       setupFiles: './tests/vitest.setup.ts',
