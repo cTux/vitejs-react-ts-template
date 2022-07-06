@@ -1,9 +1,10 @@
-import { fireEvent, render, RenderResult } from '@testing-library/react';
+import { render, RenderResult } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
 import { BaseDriverTypes } from './BaseDriver.types';
 
 export class TestingLibraryBaseDriver<P> implements BaseDriverTypes<P> {
   protected renderedComponentInstance: RenderResult | undefined;
+  private parentComponentInstance: HTMLElement | undefined;
 
   async renderFn(props: Partial<P> = {}): Promise<JSX.Element> {
     return <div {...props}>testing-library-base-driver</div>;
@@ -11,11 +12,15 @@ export class TestingLibraryBaseDriver<P> implements BaseDriverTypes<P> {
 
   async render(props: Partial<P> = {}) {
     await this.beforeRender();
-    const component = await this.renderFn(props);
     await act(async () => {
-      this.renderedComponentInstance = await render(component);
+      this.renderedComponentInstance = render(await this.renderFn(props));
     });
     await this.afterRender();
+  }
+
+  from(parent: HTMLElement) {
+    this.parentComponentInstance = parent;
+    return this;
   }
 
   // eslint-disable-next-line
@@ -24,27 +29,17 @@ export class TestingLibraryBaseDriver<P> implements BaseDriverTypes<P> {
   // eslint-disable-next-line
   async afterRender() {}
 
-  findByDataHook(dataHook: string) {
-    return this.renderedComponentInstance.getByTestId(dataHook);
+  get root(): HTMLElement {
+    return this.parentComponentInstance
+      ? this.parentComponentInstance
+      : this.renderedComponentInstance.baseElement;
   }
 
-  get root() {
-    return this.renderedComponentInstance.baseElement as HTMLElement;
+  get componentSelectFn() {
+    return 'div';
   }
 
-  component = {
-    get: {
-      text: () => this.root.textContent,
-      html: () => this.root.innerHTML,
-    },
-    has: {
-      class: (className: string) => this.root.classList.contains(className),
-    },
-    when: {
-      clicked: () =>
-        act(() => {
-          fireEvent.click(this.root);
-        }),
-    },
-  };
+  get component(): HTMLElement {
+    return this.root.querySelector(this.componentSelectFn);
+  }
 }

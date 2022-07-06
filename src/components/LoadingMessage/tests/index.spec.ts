@@ -2,7 +2,7 @@ import { LoadingMessageDriver } from './driver';
 import cn from '../styles.module.scss';
 
 describe('LoadingMessage', () => {
-  let driver;
+  let driver: LoadingMessageDriver;
 
   beforeEach(() => {
     driver = new LoadingMessageDriver();
@@ -10,7 +10,7 @@ describe('LoadingMessage', () => {
 
   it('should render w/o errors and exist', async () => {
     await driver.render();
-    expect(driver.component.has.class(cn.loadingMessage));
-    expect(driver.component.get.text()).toEqual('Loading...');
+    expect(driver.component.classList.contains(cn.anyOtherClass));
+    expect(driver.component.textContent).toEqual('Loading...');
   });
 });

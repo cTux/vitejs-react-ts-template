@@ -1,3 +1,0 @@
-// Vitest Snapshot v1
-
-exports[`App > should have default view 1`] = `"<div><div class=\\"Xzv-g\\"><h1>App</h1><button>Counter: 0</button></div></div>"`;

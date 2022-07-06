@@ -1,14 +1,16 @@
 import { AppDriver } from './driver';
 
 describe('App', () => {
-  let driver;
+  let driver: AppDriver;
 
   beforeEach(() => {
     driver = new AppDriver();
   });
 
-  it('should have default view', async () => {
+  it('should change state and re-render', async () => {
     await driver.render();
-    expect(driver.component.get.html()).toMatchSnapshot();
+    expect(driver.counter.component.textContent).toEqual('Counter: 0');
+    driver.button.when.buttonClicked();
+    expect(driver.counter.component.textContent).toEqual('Counter: 1');
   });
 });
