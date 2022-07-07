@@ -4,3 +4,5 @@ dist
 coverage
 .github
 .husky
+tests_output
+logs
