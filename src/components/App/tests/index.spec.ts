@@ -10,7 +10,7 @@ describe('App', () => {
   it('should change state and re-render', async () => {
     await driver.render();
     expect(driver.counter.component.textContent).toEqual('Counter: 0');
-    driver.button.when.buttonClicked();
+    driver.button.trigger.click();
     expect(driver.counter.component.textContent).toEqual('Counter: 1');
   });
 });

@@ -7,3 +7,4 @@ dist-ssr
 *.log
 coverage
 .vitest-result.json
+test-results

@@ -9,7 +9,7 @@ export const App = () => {
   const handleOnClick = useCallback(() => setValue((value) => value + 1), []);
 
   return (
-    <div className={cns(cn.app)}>
+    <div id={'app'} className={cns(cn.app)}>
       <Counter value={value} />
       <Button onClick={handleOnClick} />
     </div>

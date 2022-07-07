@@ -2,12 +2,10 @@ import { TestingLibraryBaseDriver } from '../../../../tests/drivers/TestingLibra
 import cn from '../styles.module.scss';
 
 export class LoadingMessageDriver extends TestingLibraryBaseDriver<unknown> {
-  async renderFn(props): Promise<JSX.Element> {
-    const { LoadingMessage } = await import('../index');
-    return <LoadingMessage {...props} />;
-  }
+  public componentSelector = `div.${cn.loading}`;
 
-  get componentSelectFn() {
-    return `div.${cn.loading}`;
+  async renderFn(): Promise<JSX.Element> {
+    const { LoadingMessage } = await import('../index');
+    return <LoadingMessage />;
   }
 }

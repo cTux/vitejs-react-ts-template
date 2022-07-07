@@ -1,3 +1,7 @@
-export interface BaseDriverTypes<P> {
-  render: (props?: P) => Promise<void>;
+export interface BaseDriverTypes<Props, Element> {
+  beforeRender: () => Promise<void>;
+  render: (props?: Props) => Promise<void>;
+  afterRender: () => Promise<void>;
+  root: Element;
+  component: Element;
 }

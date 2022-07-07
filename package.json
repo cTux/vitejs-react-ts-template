@@ -5,21 +5,24 @@
   "license": "MIT",
   "scripts": {
     "build": "vite build",
+    "build:playwright": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
     "prepare": "husky install",
-    "preview": "vite preview",
+    "preview": "vite preview --port 3093",
+    "serve": "vite serve",
     "template:update": "update-template https://github.com/cTux/vitejs-react-ts-template",
     "template:check:dependencies": "pnpm exec depcheck",
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
-    "test": "pnpm run test:vitest",
-    "test:vitest": "vitest --run --globals --dom",
-    "test:vitest:coverage": "vitest --run --coverage --globals --dom",
-    "test:vitest:watch": "vitest --globals --dom",
+    "test": "pnpm run test:vitest && pnpm run test:playwright",
+    "test:playwright": "pnpm run build:playwright && concurrently -k -n Server,Tests \"pnpm run preview\" \"playwright test playwright\"",
+    "test:vitest": "vitest --run",
+    "test:vitest:coverage": "vitest --run --coverage",
+    "test:vitest:watch": "vitest",
     "test:watch": "pnpm run test:vitest:watch",
-    "webstorm-integration": "vitest --globals --dom --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
+    "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -28,6 +31,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.23.2",
     "@testing-library/dom": "^8.16.0",
     "@testing-library/react": "^13.3.0",
     "@types/jest": "^28.1.5",
@@ -39,6 +43,7 @@
     "@typescript-eslint/parser": "^5.30.6",
     "@vitejs/plugin-react": "^2.0.0",
     "c8": "^7.11.3",
+    "concurrently": "^7.2.2",
     "depcheck": "^1.4.3",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
