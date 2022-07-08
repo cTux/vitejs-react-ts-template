@@ -5,3 +5,4 @@ coverage
 .github
 .husky
 test-results
+tests_output
