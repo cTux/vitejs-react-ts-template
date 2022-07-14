@@ -1,6 +1,6 @@
 import { render, RenderResult } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
-import { BaseDriverTypes } from './BaseDriver.types';
+import { BaseDriverTypes } from './types';
 
 export class TestingLibraryBaseDriver<Props>
   implements BaseDriverTypes<Props, HTMLElement>

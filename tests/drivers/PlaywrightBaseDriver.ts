@@ -1,11 +1,12 @@
 import { Locator, Page } from '@playwright/test';
-import { BaseDriverTypes } from './BaseDriver.types';
+import { BaseDriverTypes } from './types';
 import { startServer } from '../server';
-import { serverPort } from '../server/server.config';
+import { getViteServerConfig } from '../vitejs.server.config';
+import { getPlayWrightGotoConfig } from '../playwright.config';
 
 export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   public componentSelector = 'body';
-  public port = serverPort;
+  public port = getViteServerConfig().server.port;
 
   constructor(protected page: Page, private parent?: Locator) {}
 
@@ -18,7 +19,10 @@ export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
 
   async render(): Promise<void> {
     await this.beforeRender();
-    await this.page.goto(`http://127.0.0.1:${this.port}/`);
+    await this.page.goto(
+      `http://127.0.0.1:${this.port}/`,
+      getPlayWrightGotoConfig()
+    );
     await this.afterRender();
   }
 

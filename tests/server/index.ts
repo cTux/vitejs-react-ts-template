@@ -1,17 +1,11 @@
 import { createServer, ViteDevServer } from 'vite';
-import { serverPort } from './server.config';
+import { getViteServerConfig } from '../vitejs.server.config';
 
 let server: ViteDevServer;
 
-export const startServer = async (port = serverPort): Promise<void> => {
+export const startServer = async (port?: number): Promise<void> => {
   if (!server) {
-    server = await createServer({
-      configFile: `${__dirname}/../../vite.config.ts`,
-      root: `${__dirname}/../../`,
-      server: {
-        port,
-      },
-    });
-    await server.listen(port);
+    server = await createServer(getViteServerConfig(port));
+    await server.listen();
   }
 };
