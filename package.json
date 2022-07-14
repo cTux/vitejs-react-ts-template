@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "build:playwright": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "lint": "eslint .",
@@ -17,7 +16,7 @@
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
     "test": "pnpm run test:vitest && pnpm run test:playwright",
-    "test:playwright": "pnpm run build:playwright && concurrently -k -n Server,Tests \"pnpm run preview\" \"pnpm exec playwright test playwright\"",
+    "test:playwright": "pnpm exec playwright test playwright",
     "test:vitest": "vitest --run",
     "test:vitest:coverage": "vitest --run --coverage",
     "test:vitest:watch": "vitest",
