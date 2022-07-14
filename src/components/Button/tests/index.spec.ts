@@ -16,7 +16,7 @@ describe('Button', () => {
   it('should trigger callback fn', async () => {
     const onClick = fakeFn();
     await driver.render({ onClick });
-    driver.when.buttonClicked();
+    driver.trigger.click();
     expect(onClick).toHaveBeenCalledTimes(1);
   });
 });

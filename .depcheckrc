@@ -1,1 +1,1 @@
-ignores: ["concurrently", "typescript", "@types/*", "@testing-library/*"]
+ignores: ["npm-check-updates", "concurrently", "typescript", "@types/*", "@testing-library/*"]

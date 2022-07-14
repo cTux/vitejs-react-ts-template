@@ -29,11 +29,14 @@ jobs:
       - name: Installing dependencies
         run: pnpm i
 
-      - name: Running linter
+      - name: Running ESLint
         run: pnpm run lint
 
-      - name: Running build
-        run: pnpm run build
+      - name: Running Vitest
+        run: pnpm run test:vitest
 
-      - name: Running tests
-        run: pnpm run test
+      - name: Installing Chromium Driver
+        run: pnpm exec playwright install chromium
+
+      - name: Running Playwright
+        run: pnpm run test:playwright

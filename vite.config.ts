@@ -19,7 +19,18 @@ export default defineConfig((configEnv) => {
     },
     test: {
       globals: true,
+      exclude: [
+        '**/*.{pw}.{spec}.{ts,tsx}',
+        '**/coverage/**',
+        '**/dist/**',
+        '**/node_modules/**',
+        '**/playwright/**',
+        '**/.{idea,git,cache,output,temp,husky,github}/**',
+      ],
+      environment: 'happy-dom',
       setupFiles: './tests/vitest.setup.ts',
+      passWithNoTests: true,
+      allowOnly: true,
     },
   };
 });

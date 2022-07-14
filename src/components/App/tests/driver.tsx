@@ -3,17 +3,14 @@ import { CounterDriver } from '../../Counter/tests/driver';
 import { ButtonDriver } from '../../Button/tests/driver';
 import cn from '../styles.module.scss';
 
-export class AppDriver extends TestingLibraryBaseDriver<never> {
+export class AppDriver extends TestingLibraryBaseDriver<unknown> {
+  public componentSelector = `div.${cn.app}`;
   public counter: CounterDriver;
   public button: ButtonDriver;
 
-  async renderFn(props): Promise<JSX.Element> {
+  async renderFn(): Promise<JSX.Element> {
     const { App } = await import('../index');
-    return <App {...props} />;
-  }
-
-  get componentSelectFn() {
-    return `div.${cn.app}`;
+    return <App />;
   }
 
   async afterRender() {
