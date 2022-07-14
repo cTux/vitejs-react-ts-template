@@ -13,7 +13,7 @@ specifiers:
   '@testing-library/dom': ^8.16.0
   '@testing-library/react': ^13.3.0
   '@types/jest': ^28.1.5
-  '@types/node': ^16.11.43
+  '@types/node': ^16.11.44
   '@types/react': ^18.0.15
   '@types/react-dom': ^18.0.6
   '@types/sinon': ^10.0.12
@@ -32,7 +32,7 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.8
   normalize.css: ^8.0.1
-  npm-check-updates: 15.2.6
+  npm-check-updates: 15.3.0
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -53,7 +53,7 @@ devDependencies:
   '@testing-library/dom': 8.16.0
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/jest': 28.1.5
-  '@types/node': 16.11.43
+  '@types/node': 16.11.44
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   '@types/sinon': 10.0.12
@@ -70,7 +70,7 @@ devDependencies:
   happy-dom: 6.0.3
   husky: 8.0.1
   node-fetch: 3.2.8
-  npm-check-updates: 15.2.6
+  npm-check-updates: 15.3.0
   prettier: 2.7.1
   sass: 1.53.0
   typescript: 4.7.4
@@ -1672,8 +1672,8 @@ packages:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
     dev: true
 
-  /@types/node/16.11.43:
-    resolution: {integrity: sha512-GqWykok+3uocgfAJM8imbozrqLnPyTrpFlrryURQlw1EesPUCx5XxTiucWDSFF9/NUEXDuD4bnvHm8xfVGWTpQ==}
+  /@types/node/16.11.44:
+    resolution: {integrity: sha512-gwP6+QDgL5TDBIWh1lbYh3EFPU11pa+8xcamcsA3ROkp3A9X+/3Y5cRgq93VPEEE+CGfxlQnqkg1kkWGBgh3fw==}
     dev: true
 
   /@types/node/17.0.14:
@@ -4584,8 +4584,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/15.2.6:
-    resolution: {integrity: sha512-lXihP+6EjHW74ENE6YYW2feUmdsfK4evus2ZTCyTd0QSnmHdx0bcHpiHsjgqjPtIqgHPJXLCrV6gd3JGYZg3xg==}
+  /npm-check-updates/15.3.0:
+    resolution: {integrity: sha512-NAIeEUFqfCRpDJpPjHnRss69wO/E61kvMCscmjYknCGal83+u4xjA+zw4NGiPoiWrfENbnhc2pdwmMjg8cidjg==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
