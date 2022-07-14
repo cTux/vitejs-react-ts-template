@@ -10,7 +10,7 @@ overrides:
   got@<11.8.5: '>=11.8.5'
 
 specifiers:
-  '@playwright/test': ^1.23.2
+  '@playwright/test': ^1.23.3
   '@testing-library/dom': ^8.16.0
   '@testing-library/react': ^13.3.0
   '@types/jest': ^28.1.5
