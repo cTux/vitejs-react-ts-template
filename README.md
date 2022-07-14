@@ -24,5 +24,8 @@
 * SCSS Modules
 * ESLint + Prettier
 * Testing Library
-* Husky + Pre-Commit checks
+* Husky + Pre-Commit hook
 * GitHub Pages Deployment
+
+## Other
+* `Wallaby` works well with `vitest` with `automatic` configuration type
