@@ -1,6 +1,6 @@
-import { TestingLibraryBaseDriver } from '../../../../tests/drivers/TestingLibraryBaseDriver';
-import { CounterDriver } from '../../Counter/tests/driver';
-import { ButtonDriver } from '../../Button/tests/driver';
+import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
+import { CounterDriver } from '~/components/Counter/tests/driver';
+import { ButtonDriver } from '~/components/Button/tests/driver';
 import cn from '../styles.module.scss';
 
 export class AppDriver extends TestingLibraryBaseDriver<unknown> {

@@ -20,6 +20,7 @@ specifiers:
   '@types/sinon': ^10.0.12
   '@typescript-eslint/eslint-plugin': ^5.30.6
   '@typescript-eslint/parser': ^5.30.6
+  '@vitejs/plugin-basic-ssl': ^0.1.1
   '@vitejs/plugin-react': ^2.0.0
   c8: ^7.11.3
   clsx: ^1.2.1
@@ -62,6 +63,7 @@ devDependencies:
   '@types/sinon': 10.0.12
   '@typescript-eslint/eslint-plugin': 5.30.6_2vt5mtrqleafs33qg2bhpmbaqm
   '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
+  '@vitejs/plugin-basic-ssl': 0.1.1_vite@3.0.0
   '@vitejs/plugin-react': 2.0.0_vite@3.0.0
   c8: 7.11.3
   concurrently: 7.2.2
@@ -1979,6 +1981,15 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.30.6
       eslint-visitor-keys: 3.3.0
+    dev: true
+
+  /@vitejs/plugin-basic-ssl/0.1.1_vite@3.0.0:
+    resolution: {integrity: sha512-UhfGAZ8HgIMEPktKF8k58Y1LSwuYs1i1O4HY8E+yiOoYM+rkaPFBZo1SOkRsZN8DZTw90Q+ZznPej1o/mtTisg==}
+    engines: {node: '>=14.6.0'}
+    peerDependencies:
+      vite: ^3.0.0-beta.0
+    dependencies:
+      vite: 3.0.0_sass@1.53.0
     dev: true
 
   /@vitejs/plugin-react/2.0.0_vite@3.0.0:

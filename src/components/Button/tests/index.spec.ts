@@ -1,5 +1,5 @@
+import { fakeFn } from '~/tests/mocks/fn';
 import { ButtonDriver } from './driver';
-import { fakeFn } from '../../../../tests/mocks/fn';
 
 describe('Button', () => {
   let driver: ButtonDriver;
