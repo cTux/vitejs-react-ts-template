@@ -7,15 +7,18 @@ export class TestingLibraryBaseDriver<Props>
 {
   #renderedComponentInstance: RenderResult;
   #parent: HTMLElement;
-  componentSelector = 'div';
+  public componentSelector = 'div';
+  public defaultProps: Props;
 
   // eslint-disable-next-line
   async beforeRender() {}
 
-  async render(props?: Props): Promise<void> {
+  async render(props?: Partial<Props>): Promise<void> {
     await this.beforeRender();
     await act(async () => {
-      this.#renderedComponentInstance = render(await this.renderFn(props));
+      this.#renderedComponentInstance = render(
+        await this.renderFn({ ...this.defaultProps, ...props })
+      );
     });
     await this.afterRender();
   }

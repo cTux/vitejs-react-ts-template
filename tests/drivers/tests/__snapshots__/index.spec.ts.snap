@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`EmptyTLDriver > should render 1`] = `"<div>testing-library-base-driver</div>"`;
