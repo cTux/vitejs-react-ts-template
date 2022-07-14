@@ -20,7 +20,7 @@ export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   async render(): Promise<void> {
     await this.beforeRender();
     await this.page.goto(
-      `http://127.0.0.1:${this.port}/`,
+      `https://127.0.0.1:${this.port}/`,
       getPlayWrightGotoConfig()
     );
     await this.afterRender();

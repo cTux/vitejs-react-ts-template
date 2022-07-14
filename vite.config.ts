@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => {
@@ -11,7 +12,7 @@ export default defineConfig((configEnv) => {
   return {
     base: './',
     publicDir: './src/assets',
-    plugins: [react(), VitePWA()],
+    plugins: [react(), VitePWA(), basicSsl()],
     css: {
       modules: {
         generateScopedName,
@@ -20,7 +21,6 @@ export default defineConfig((configEnv) => {
     test: {
       globals: true,
       exclude: [
-        '**/*.{pw}.{spec}.{ts,tsx}',
         '**/coverage/**',
         '**/dist/**',
         '**/node_modules/**',
@@ -28,9 +28,14 @@ export default defineConfig((configEnv) => {
         '**/.{idea,git,cache,output,temp,husky,github}/**',
       ],
       environment: 'happy-dom',
-      setupFiles: './tests/vitest.setup.ts',
+      setupFiles: './src/tests/vitest.setup.ts',
       passWithNoTests: true,
       allowOnly: true,
+    },
+    resolve: {
+      alias: {
+        '~/': `${__dirname}/src/`,
+      },
     },
   };
 });

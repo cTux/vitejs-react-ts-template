@@ -28,4 +28,5 @@
 * GitHub Pages Deployment
 
 ## Other
-* `Wallaby` works well with `vitest` with `automatic` configuration type
+* `Absolute imports` are configured.
+* `Wallaby` works well with `vitest` with `automatic` configuration type.

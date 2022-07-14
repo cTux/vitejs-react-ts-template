@@ -11,7 +11,6 @@
     "prepare": "husky install",
     "preview": "vite preview --port 3093",
     "serve": "vite serve",
-    "template:update": "pnpm exec update-template https://github.com/cTux/vitejs-react-ts-template",
     "template:check:dependencies": "pnpm exec depcheck",
     "template:branches:show": "git-removed-branches",
     "template:branches:delete": "git-removed-branches --prune",
@@ -19,9 +18,7 @@
     "test:playwright": "pnpm exec playwright test playwright",
     "test:vitest": "vitest --run",
     "test:vitest:coverage": "vitest --run --coverage",
-    "test:vitest:watch": "vitest",
-    "test:watch": "pnpm run test:vitest:watch",
-    "webstorm-integration": "vitest --watch --reporter=dot --reporter=json --outputFile=.vitest-result.json"
+    "test:vitest:watch": "vitest"
   },
   "dependencies": {
     "clsx": "^1.2.1",
@@ -40,6 +37,7 @@
     "@types/sinon": "^10.0.12",
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.6",
+    "@vitejs/plugin-basic-ssl": "^0.1.1",
     "@vitejs/plugin-react": "^2.0.0",
     "c8": "^7.11.3",
     "concurrently": "^7.2.2",

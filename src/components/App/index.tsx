@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import cns from 'clsx';
-import { Counter } from '../Counter';
-import { Button } from '../Button';
+import { Counter } from '~/components/Counter';
+import { Button } from '~/components/Button';
 import cn from './styles.module.scss';
 
 export const App = () => {

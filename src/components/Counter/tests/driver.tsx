@@ -1,4 +1,4 @@
-import { TestingLibraryBaseDriver } from '../../../../tests/drivers/TestingLibraryBaseDriver';
+import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
 import { CounterProps } from '../types';
 import cn from '../styles.module.scss';
 

@@ -1,6 +1,6 @@
-import { TestingLibraryBaseDriver } from '../../../../tests/drivers/TestingLibraryBaseDriver';
 import { act } from '@testing-library/react';
 import { fireEvent } from '@testing-library/dom';
+import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
 import { ButtonProps } from '../types';
 
 export class ButtonDriver extends TestingLibraryBaseDriver<ButtonProps> {
