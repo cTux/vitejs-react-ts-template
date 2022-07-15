@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import 'normalize.css';
+import 'uno.css';
 import { LoadingMessage } from '~/components/LoadingMessage';
 import { App } from '~/components/App';
 import './index.scss';

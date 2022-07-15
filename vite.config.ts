@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import basicSsl from '@vitejs/plugin-basic-ssl';
+import basicSSL from '@vitejs/plugin-basic-ssl';
+import unoCSS from 'unocss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig((configEnv) => {
@@ -12,7 +13,7 @@ export default defineConfig((configEnv) => {
   return {
     base: './',
     publicDir: './src/assets',
-    plugins: [react(), VitePWA(), basicSsl()],
+    plugins: [react(), VitePWA(), basicSSL(), unoCSS()],
     css: {
       modules: {
         generateScopedName,
