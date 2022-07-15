@@ -1,0 +1,17 @@
+{
+  "LABEL": {
+    "name": "INVALID TITLE",
+    "color": "B60205"
+  },
+  "CHECKS": {
+    "prefixes": [],
+    "regexp": "v[2-9]\\(v[0-9]\\): ",
+    "regexpFlags": "i",
+    "ignoreLabels" : []
+  },
+  "MESSAGES": {
+    "success": "Title is valid.",
+    "failure": "Title is invalid.",
+    "notice": ""
+  }
+}
