@@ -22,12 +22,13 @@
 ## Development dependencies:
 
 * TypeScript v4
-* SCSS Modules
+* SCSS + CSS Modules 
 * ESLint + Prettier
 * Testing Library
+* Playwright
 * Husky + hooks:
-  * pre-commit hook
-  * conventional commit message
+  * pre-commit: lint and test
+  * commit-msg: conventional commit message
 * GitHub Pages Deployment
 
 ## Other
