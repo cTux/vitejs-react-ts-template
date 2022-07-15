@@ -4,7 +4,7 @@
     "color": "B60205"
   },
   "CHECKS": {
-    "regexp": "^(feat|fix|up)\\([^)]+\\): .+",
+    "regexp": "^(feat|fix|up|chore|add)\\([^)]+\\): .+",
     "regexpFlags": "i"
   },
   "MESSAGES": {
