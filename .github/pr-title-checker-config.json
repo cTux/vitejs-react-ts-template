@@ -4,10 +4,10 @@
     "color": "B60205"
   },
   "CHECKS": {
-    "prefixes": [],
-    "regexp": "v[2-9]\\(v[0-9]\\): ",
+    "prefixes": ["feat", "fix", "up"],
+    "regexp": "\\(v[0-9]\\): ",
     "regexpFlags": "i",
-    "ignoreLabels" : []
+    "ignoreLabels" : ["DO NOT MERGE"]
   },
   "MESSAGES": {
     "success": "Title is valid.",
