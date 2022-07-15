@@ -4,7 +4,7 @@
     "color": "B60205"
   },
   "CHECKS": {
-    "regexp": "\\(v[0-9]\\): ",
+    "regexp": "(feat|fix|up)\\([a-z]{2-10}\\): ",
     "regexpFlags": "i"
   },
   "MESSAGES": {
