@@ -39,7 +39,7 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.9
   normalize.css: ^8.0.1
-  npm-check-updates: 15.3.4
+  npm-check-updates: ^16.0.0
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -83,7 +83,7 @@ devDependencies:
   happy-dom: 6.0.4
   husky: 8.0.1
   node-fetch: 3.2.9
-  npm-check-updates: 15.3.4
+  npm-check-updates: 16.0.0
   prettier: 2.7.1
   sass: 1.54.0
   typescript: 4.7.4
@@ -5355,8 +5355,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/15.3.4:
-    resolution: {integrity: sha512-YZDcw0DFn5ggl7b9znZ7N0i+Q1HVIxW+eZlV7XvR+RIs367H+ytKCB4slAU33Bg9IljY7uv3dsFjV2npOt3GyA==}
+  /npm-check-updates/16.0.0:
+    resolution: {integrity: sha512-l1PSWEQ51Zhq54LVMbvWcBDIKTqLLE0Bj40mP0z85mHR7wUJYRN1C+pndPu5qW3ay0h5466zZGc3E+o7wtJ2gA==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
