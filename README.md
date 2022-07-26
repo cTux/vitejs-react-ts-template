@@ -1,11 +1,9 @@
 # ViteJS React+TypeScript Template
 
-| Actions                                                                                                                                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)                     |
-| [![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)                        |
-| [![Executing Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)                            |
-| [![PR Title Checking](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml) |
+[![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
+[![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)
+[![Executing Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)
+[![PR Title Checking](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml)
 
 ## Template's core:
 * NodeJS v16
