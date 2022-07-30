@@ -13,7 +13,7 @@ overrides:
 specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
-  '@playwright/test': ^1.24.1
+  '@playwright/test': ^1.24.2
   '@testing-library/dom': ^8.16.0
   '@testing-library/react': ^13.3.0
   '@types/jest': ^28.1.6
@@ -39,14 +39,14 @@ specifiers:
   husky: ^8.0.1
   node-fetch: ^3.2.9
   normalize.css: ^8.0.1
-  npm-check-updates: ^16.0.1
+  npm-check-updates: ^16.0.3
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
   sass: ^1.54.0
   typescript: ^4.7.4
   update-template: ^1.3.1
-  vite: ^3.0.3
+  vite: ^3.0.4
   vite-plugin-pwa: ^0.12.3
   vitest: ^0.19.1
 
@@ -59,7 +59,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@playwright/test': 1.24.1
+  '@playwright/test': 1.24.2
   '@testing-library/dom': 8.16.0
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/jest': 28.1.6
@@ -69,8 +69,8 @@ devDependencies:
   '@types/sinon': 10.0.13
   '@typescript-eslint/eslint-plugin': 5.31.0_d5zwcxr4bwkhmuo464cb3a2puu
   '@typescript-eslint/parser': 5.31.0_he2ccbldppg44uulnyq4rwocfa
-  '@vitejs/plugin-basic-ssl': 0.1.1_vite@3.0.3
-  '@vitejs/plugin-react': 2.0.0_vite@3.0.3
+  '@vitejs/plugin-basic-ssl': 0.1.1_vite@3.0.4
+  '@vitejs/plugin-react': 2.0.0_vite@3.0.4
   c8: 7.12.0
   concurrently: 7.3.0
   depcheck: 1.4.3
@@ -83,13 +83,13 @@ devDependencies:
   happy-dom: 6.0.4
   husky: 8.0.1
   node-fetch: 3.2.9
-  npm-check-updates: 16.0.1
+  npm-check-updates: 16.0.3
   prettier: 2.7.1
   sass: 1.54.0
   typescript: 4.7.4
   update-template: 1.3.1
-  vite: 3.0.3_sass@1.54.0
-  vite-plugin-pwa: 0.12.3_vite@3.0.3
+  vite: 3.0.4_sass@1.54.0
+  vite-plugin-pwa: 0.12.3_vite@3.0.4
   vitest: 0.19.1_3b2zs3y7mlz7tqjuqsakkszct4
 
 packages:
@@ -1751,13 +1751,13 @@ packages:
       - supports-color
     dev: true
 
-  /@playwright/test/1.24.1:
-    resolution: {integrity: sha512-VJ9qekMis7Oze2Q/Vb+w1g2aPaJFRdl5vhTS6h82kG89Jb8trlU2WHY7oYzNRjvFPoVUMcWXiblH2bWcbEax/A==}
+  /@playwright/test/1.24.2:
+    resolution: {integrity: sha512-Q4X224pRHw4Dtkk5PoNJplZCokLNvVbXD9wDQEMrHcEuvWpJWEQDeJ9gEwkZ3iCWSFSWBshIX177B231XW4wOQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 17.0.14
-      playwright-core: 1.24.1
+      playwright-core: 1.24.2
     dev: true
 
   /@pnpm/network.ca-file/1.0.1:
@@ -2181,16 +2181,16 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-basic-ssl/0.1.1_vite@3.0.3:
+  /@vitejs/plugin-basic-ssl/0.1.1_vite@3.0.4:
     resolution: {integrity: sha512-UhfGAZ8HgIMEPktKF8k58Y1LSwuYs1i1O4HY8E+yiOoYM+rkaPFBZo1SOkRsZN8DZTw90Q+ZznPej1o/mtTisg==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
       vite: ^3.0.0-beta.0
     dependencies:
-      vite: 3.0.3_sass@1.54.0
+      vite: 3.0.4_sass@1.54.0
     dev: true
 
-  /@vitejs/plugin-react/2.0.0_vite@3.0.3:
+  /@vitejs/plugin-react/2.0.0_vite@3.0.4:
     resolution: {integrity: sha512-zHkRR+X4zqEPNBbKV2FvWSxK7Q6crjMBVIAYroSU8Nbb4M3E5x4qOiLoqJBHtXgr27kfednXjkwr3lr8jS6Wrw==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -2203,7 +2203,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.18.6
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.0.3_sass@1.54.0
+      vite: 3.0.4_sass@1.54.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2878,8 +2878,8 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
 
-  /commander/9.3.0:
-    resolution: {integrity: sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==}
+  /commander/9.4.0:
+    resolution: {integrity: sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==}
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
@@ -5355,14 +5355,14 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/16.0.1:
-    resolution: {integrity: sha512-wEGC9bWsxVVccwIplXLj3f902qORq5tuK1ai/Plwk/Wtt/rzbN8u3+lpZh811Cn71ZAFIAPver4l+i31nbxfJA==}
+  /npm-check-updates/16.0.3:
+    resolution: {integrity: sha512-oTCQ/USrDBruVOIRrnpxk4oW4H1mIJfcSta2/ffslKv6kqv4C22hP+ltZoRGu+1nhZ5dsDb/B8CoVyD27/Wm8w==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
       chalk: 5.0.1
       cli-table: 0.3.11
-      commander: 9.3.0
+      commander: 9.4.0
       fast-memoize: 2.5.2
       find-up: 5.0.0
       fp-and-or: 0.1.3
@@ -5712,8 +5712,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.24.1:
-    resolution: {integrity: sha512-1RoSDe/oTQS1Ct7Pb8i+vcFKbKYpmVIBXk0IUiD8RvCUMnNl7EJF1OSQ9E8TZ5RYamWkW2Psir9e8Doyz1FnhQ==}
+  /playwright-core/1.24.2:
+    resolution: {integrity: sha512-zfAoDoPY/0sDLsgSgLZwWmSCevIg1ym7CppBwllguVBNiHeixZkc1AdMuYUPZC6AdEYc4CxWEyLMBTw2YcmRrA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -7032,7 +7032,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-plugin-pwa/0.12.3_vite@3.0.3:
+  /vite-plugin-pwa/0.12.3_vite@3.0.4:
     resolution: {integrity: sha512-gmYdIVXpmBuNjzbJFPZFzxWYrX4lHqwMAlOtjmXBbxApiHjx9QPXKQPJjSpeTeosLKvVbNcKSAAhfxMda0QVNQ==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
@@ -7041,7 +7041,7 @@ packages:
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
       rollup: 2.75.7
-      vite: 3.0.3_sass@1.54.0
+      vite: 3.0.4_sass@1.54.0
       workbox-build: 6.5.3
       workbox-window: 6.5.3
     transitivePeerDependencies:
@@ -7049,8 +7049,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/3.0.3_sass@1.54.0:
-    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
+  /vite/3.0.4_sass@1.54.0:
+    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -7112,7 +7112,7 @@ packages:
       local-pkg: 0.4.2
       tinypool: 0.2.4
       tinyspy: 1.0.0
-      vite: 3.0.3_sass@1.54.0
+      vite: 3.0.4_sass@1.54.0
     transitivePeerDependencies:
       - less
       - sass
