@@ -17,7 +17,7 @@ specifiers:
   '@testing-library/dom': ^8.16.0
   '@testing-library/react': ^13.3.0
   '@types/jest': ^28.1.6
-  '@types/node': ^16.11.46
+  '@types/node': ^16.11.47
   '@types/react': ^18.0.15
   '@types/react-dom': ^18.0.6
   '@types/sinon': ^10.0.13
@@ -63,7 +63,7 @@ devDependencies:
   '@testing-library/dom': 8.16.0
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@types/jest': 28.1.6
-  '@types/node': 16.11.46
+  '@types/node': 16.11.47
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
   '@types/sinon': 10.0.13
@@ -1983,8 +1983,8 @@ packages:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
     dev: true
 
-  /@types/node/16.11.46:
-    resolution: {integrity: sha512-x+sfpb2dMrhCQPL4NAGs64Z9hh0t72aP0dg+PuZidmPr/0Gj5ELQTjD/t46dq3DF/8ZvSHOaIyDIbAsdPshyVQ==}
+  /@types/node/16.11.47:
+    resolution: {integrity: sha512-fpP+jk2zJ4VW66+wAMFoBJlx1bxmBKx4DUFf68UHgdGCOuyUTDlLWqsaNPJh7xhNDykyJ9eIzAygilP/4WoN8g==}
     dev: true
 
   /@types/node/17.0.14:
