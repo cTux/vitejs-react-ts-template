@@ -23,7 +23,7 @@ specifiers:
   '@types/sinon': ^10.0.13
   '@typescript-eslint/eslint-plugin': ^5.33.1
   '@typescript-eslint/parser': ^5.33.1
-  '@vitejs/plugin-basic-ssl': ^0.1.1
+  '@vitejs/plugin-basic-ssl': ^0.1.2
   '@vitejs/plugin-react': ^2.0.1
   c8: ^7.12.0
   clsx: ^1.2.1
@@ -69,7 +69,7 @@ devDependencies:
   '@types/sinon': 10.0.13
   '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
   '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
-  '@vitejs/plugin-basic-ssl': 0.1.1_vite@3.0.8
+  '@vitejs/plugin-basic-ssl': 0.1.2_vite@3.0.8
   '@vitejs/plugin-react': 2.0.1_vite@3.0.8
   c8: 7.12.0
   concurrently: 7.3.0
@@ -2158,8 +2158,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-basic-ssl/0.1.1_vite@3.0.8:
-    resolution: {integrity: sha512-UhfGAZ8HgIMEPktKF8k58Y1LSwuYs1i1O4HY8E+yiOoYM+rkaPFBZo1SOkRsZN8DZTw90Q+ZznPej1o/mtTisg==}
+  /@vitejs/plugin-basic-ssl/0.1.2_vite@3.0.8:
+    resolution: {integrity: sha512-EdwCHnbkakR6YPupySZm1WoCDRPaw9c5jObAo2pCRv8Ja2TESFC6Sc8RUOcKuihfjARDfszbBf+YEQwHY9s9wg==}
     engines: {node: '>=14.6.0'}
     peerDependencies:
       vite: ^3.0.0-beta.0
