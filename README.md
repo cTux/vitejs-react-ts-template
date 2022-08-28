@@ -5,6 +5,8 @@
 [![Executing Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)
 [![PR Title Checking](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml)
 
+[![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
+
 ## Template's core:
 * NodeJS v16
 * [pnpm](https://pnpm.io/)
@@ -28,7 +30,3 @@
   * pre-commit: lint and test
   * commit-msg: conventional commit message
 * GitHub Pages Deployment
-
-## Other
-* `Absolute imports` are configured.
-* `Wallaby` works well with `vitest` with `automatic` configuration type.
