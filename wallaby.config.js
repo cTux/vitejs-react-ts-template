@@ -1,5 +1,5 @@
 module.exports = () => ({
-  testFramework: 'vitest',
+  autoDetect: true,
   files: ['src/components/**/*.tsx?'],
   tests: ['src/components/**/*.spec.ts'],
 });
