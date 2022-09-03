@@ -5,7 +5,9 @@ let server: ViteDevServer;
 
 export const startServer = async (port?: number): Promise<void> => {
   if (!server) {
-    server = await createServer(getViteServerConfig(port));
+    const options = getViteServerConfig(port);
+    server = await createServer(options);
     await server.listen();
+    console.info(`Server started on ${options.server.port} port.`);
   }
 };

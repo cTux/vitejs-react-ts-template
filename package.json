@@ -3,6 +3,9 @@
   "version": "0.5.2",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "vite build | gnomon",
     "deploy": "gh-pages -d dist | gnomon",
