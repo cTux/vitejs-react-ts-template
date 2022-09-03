@@ -48,7 +48,7 @@ specifiers:
   typescript: ^4.8.2
   update-template: ^1.3.1
   vite: ^3.0.9
-  vite-plugin-pwa: ^0.12.4
+  vite-plugin-pwa: ^0.12.6
   vitest: ^0.22.1
 
 dependencies:
@@ -91,7 +91,7 @@ devDependencies:
   typescript: 4.8.2
   update-template: 1.3.1
   vite: 3.0.9_sass@1.54.8
-  vite-plugin-pwa: 0.12.4_vite@3.0.9
+  vite-plugin-pwa: 0.12.6_vite@3.0.9
   vitest: 0.22.1_mchdp5ehtuv3qahojeq3mdgobi
 
 packages:
@@ -7091,8 +7091,8 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-plugin-pwa/0.12.4_vite@3.0.9:
-    resolution: {integrity: sha512-ONHS2OcMMWdOOIPG8JBet2BTssZC1FSjY34f9t5byM3H6RKgu5qbv6p809OlfYkg8bFi58oEhNDxDB5UE4vkfQ==}
+  /vite-plugin-pwa/0.12.6_vite@3.0.9:
+    resolution: {integrity: sha512-qRxx1zUlwKq2QD20nDZVL449wV+dflRVeDMLa2k4LZiHfWRfHWwmdhnDZOlMEgni0Zss1DkhyTmuzLYuO6aO3A==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
     dependencies:
