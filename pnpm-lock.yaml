@@ -13,10 +13,10 @@ overrides:
 specifiers:
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
-  '@playwright/test': ^1.25.1
+  '@playwright/test': ^1.25.2
   '@testing-library/dom': ^8.17.1
   '@testing-library/react': ^13.4.0
-  '@types/node': ^16.11.57
+  '@types/node': ^16.11.58
   '@types/react': ^18.0.18
   '@types/react-dom': ^18.0.6
   '@types/sinon': ^10.0.13
@@ -26,7 +26,7 @@ specifiers:
   '@vitejs/plugin-react': ^2.1.0
   c8: ^7.12.0
   clsx: ^1.2.1
-  concurrently: ^7.3.0
+  concurrently: ^7.4.0
   depcheck: ^1.4.3
   eslint: ^8.23.0
   eslint-config-prettier: ^8.5.0
@@ -42,12 +42,12 @@ specifiers:
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
-  sass: ^1.54.8
+  sass: ^1.54.9
   ts-node: ^10.9.1
   typescript: ^4.8.2
   update-template: ^1.3.1
   vite: ^3.1.0
-  vite-plugin-pwa: ^0.12.6
+  vite-plugin-pwa: ^0.12.7
   vitest: ^0.23.1
 
 dependencies:
@@ -59,10 +59,10 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.1.2
   '@commitlint/config-conventional': 17.1.0
-  '@playwright/test': 1.25.1
+  '@playwright/test': 1.25.2
   '@testing-library/dom': 8.17.1
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-  '@types/node': 16.11.57
+  '@types/node': 16.11.58
   '@types/react': 18.0.18
   '@types/react-dom': 18.0.6
   '@types/sinon': 10.0.13
@@ -71,7 +71,7 @@ devDependencies:
   '@vitejs/plugin-basic-ssl': 0.1.2_vite@3.1.0
   '@vitejs/plugin-react': 2.1.0_vite@3.1.0
   c8: 7.12.0
-  concurrently: 7.3.0
+  concurrently: 7.4.0
   depcheck: 1.4.3
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
@@ -84,13 +84,13 @@ devDependencies:
   node-fetch: 3.2.10
   npm-check-updates: 16.1.0
   prettier: 2.7.1
-  sass: 1.54.8
-  ts-node: 10.9.1_5r3yu7y6rukm7ahbyvnkii5svm
+  sass: 1.54.9
+  ts-node: 10.9.1_peo6hx7wu7rhrmavg66olfxwea
   typescript: 4.8.2
   update-template: 1.3.1
-  vite: 3.1.0_sass@1.54.8
-  vite-plugin-pwa: 0.12.6_vite@3.1.0
-  vitest: 0.23.1_mchdp5ehtuv3qahojeq3mdgobi
+  vite: 3.1.0_sass@1.54.9
+  vite-plugin-pwa: 0.12.7_vite@3.1.0
+  vitest: 0.23.1_fbyzjfqbv5cnwzyx3orxwlotca
 
 packages:
 
@@ -1676,13 +1676,13 @@ packages:
       - supports-color
     dev: true
 
-  /@playwright/test/1.25.1:
-    resolution: {integrity: sha512-IJ4X0yOakXtwkhbnNzKkaIgXe6df7u3H3FnuhI9Jqh+CdO0e/lYQlDLYiyI9cnXK8E7UAppAWP+VqAv6VX7HQg==}
+  /@playwright/test/1.25.2:
+    resolution: {integrity: sha512-6qPznIR4Fw02OMbqXUPMG6bFFg1hDVNEdihKy0t9K0dmRbus1DyP5Q5XFQhGwEHQkLG5hrSfBuu9CW/foqhQHQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 17.0.14
-      playwright-core: 1.25.1
+      playwright-core: 1.25.2
     dev: true
 
   /@pnpm/network.ca-file/1.0.1:
@@ -1901,8 +1901,8 @@ packages:
     resolution: {integrity: sha512-0b+utRBSYj8L7XAp0d+DX7lI4cSmowNaaTkk6/1SKzbKkG+doLuPusB9EOvzLJ8ahJSk03bTLIL6cWaEd4dBKA==}
     dev: true
 
-  /@types/node/16.11.57:
-    resolution: {integrity: sha512-diBb5AE2V8h9Fs9zEDtBwSeLvIACng/aAkdZ3ujMV+cGuIQ9Nc/V+wQqurk9HJp8ni5roBxQHW21z/ZYbGDivg==}
+  /@types/node/16.11.58:
+    resolution: {integrity: sha512-uMVxJ111wpHzkx/vshZFb6Qni3BOMnlWLq7q9jrwej7Yw/KvjsEbpxCCxw+hLKxexFMc8YmpG8J9tnEe/rKsIg==}
     dev: true
 
   /@types/node/17.0.14:
@@ -2106,7 +2106,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0-beta.0
     dependencies:
-      vite: 3.1.0_sass@1.54.8
+      vite: 3.1.0_sass@1.54.9
     dev: true
 
   /@vitejs/plugin-react/2.1.0_vite@3.1.0:
@@ -2122,7 +2122,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.19.0
       magic-string: 0.26.2
       react-refresh: 0.14.0
-      vite: 3.1.0_sass@1.54.8
+      vite: 3.1.0_sass@1.54.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2840,13 +2840,13 @@ packages:
       typedarray: 0.0.6
     dev: true
 
-  /concurrently/7.3.0:
-    resolution: {integrity: sha512-IiDwm+8DOcFEInca494A8V402tNTQlJaYq78RF2rijOrKEk/AOHTxhN4U1cp7GYKYX5Q6Ymh1dLTBlzIMN0ikA==}
+  /concurrently/7.4.0:
+    resolution: {integrity: sha512-M6AfrueDt/GEna/Vg9BqQ+93yuvzkSKmoTixnwEJkH0LlcGrRC2eCmjeG1tLLHIYfpYJABokqSGyMcXjm96AFA==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
       chalk: 4.1.2
-      date-fns: 2.28.0
+      date-fns: 2.29.2
       lodash: 4.17.21
       rxjs: 7.5.6
       shell-quote: 1.7.3
@@ -3001,8 +3001,8 @@ packages:
     engines: {node: '>= 12'}
     dev: true
 
-  /date-fns/2.28.0:
-    resolution: {integrity: sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==}
+  /date-fns/2.29.2:
+    resolution: {integrity: sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==}
     engines: {node: '>=0.11'}
     dev: true
 
@@ -3109,7 +3109,7 @@ packages:
       readdirp: 3.6.0
       require-package-name: 2.0.1
       resolve: 1.22.0
-      sass: 1.54.8
+      sass: 1.54.9
       scss-parser: 1.0.5
       semver: 7.3.7
       yargs: 16.2.0
@@ -5609,8 +5609,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.25.1:
-    resolution: {integrity: sha512-lSvPCmA2n7LawD2Hw7gSCLScZ+vYRkhU8xH0AapMyzwN+ojoDqhkH/KIEUxwNu2PjPoE/fcE0wLAksdOhJ2O5g==}
+  /playwright-core/1.25.2:
+    resolution: {integrity: sha512-0yTbUE9lIddkEpLHL3u8PoCL+pWiZtj5A/j3U7YoNjcmKKDGBnCrgHJMzwd2J5vy6l28q4ki3JIuz7McLHhl1A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -6096,14 +6096,6 @@ packages:
       terser: 5.10.0
     dev: true
 
-  /rollup/2.75.7:
-    resolution: {integrity: sha512-VSE1iy0eaAYNCxEXaleThdFXqZJ42qDBatAwrfnPlENEZ8erQ+0LYX4JXOLPceWfZpV1VtZwZ3dFCuOZiSyFtQ==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /rollup/2.78.1:
     resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
     engines: {node: '>=10.0.0'}
@@ -6136,8 +6128,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass/1.54.8:
-    resolution: {integrity: sha512-ib4JhLRRgbg6QVy6bsv5uJxnJMTS2soVcCp9Y88Extyy13A8vV0G1fAwujOzmNkFQbR3LvedudAMbtuNRPbQww==}
+  /sass/1.54.9:
+    resolution: {integrity: sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -6679,7 +6671,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-node/10.9.1_5r3yu7y6rukm7ahbyvnkii5svm:
+  /ts-node/10.9.1_peo6hx7wu7rhrmavg66olfxwea:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -6698,7 +6690,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 16.11.57
+      '@types/node': 16.11.58
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -6961,16 +6953,16 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-plugin-pwa/0.12.6_vite@3.1.0:
-    resolution: {integrity: sha512-qRxx1zUlwKq2QD20nDZVL449wV+dflRVeDMLa2k4LZiHfWRfHWwmdhnDZOlMEgni0Zss1DkhyTmuzLYuO6aO3A==}
+  /vite-plugin-pwa/0.12.7_vite@3.1.0:
+    resolution: {integrity: sha512-salSwS1wWc1niNWfhX2W6gtfXmk+XESMz62w95EHLq6fSM2bDgDm1APmvq1nkDcxH6Onky7HxysCBKMzvOHXYg==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
     dependencies:
       debug: 4.3.4
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
-      rollup: 2.75.7
-      vite: 3.1.0_sass@1.54.8
+      rollup: 2.78.1
+      vite: 3.1.0_sass@1.54.9
       workbox-build: 6.5.3
       workbox-window: 6.5.3
     transitivePeerDependencies:
@@ -6978,7 +6970,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite/3.1.0_sass@1.54.8:
+  /vite/3.1.0_sass@1.54.9:
     resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -7001,12 +6993,12 @@ packages:
       postcss: 8.4.16
       resolve: 1.22.1
       rollup: 2.78.1
-      sass: 1.54.8
+      sass: 1.54.9
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.23.1_mchdp5ehtuv3qahojeq3mdgobi:
+  /vitest/0.23.1_fbyzjfqbv5cnwzyx3orxwlotca:
     resolution: {integrity: sha512-kn9pG+h6VA3yj/xRvwgLKEd33rOlzMqJEg3tl5HSm3WUPlkY1Lr1FK8RN1uIqVKvFxmz6HGU3EQW+xW2kazRkQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -7039,7 +7031,7 @@ packages:
       tinybench: 2.1.4
       tinypool: 0.2.4
       tinyspy: 1.0.2
-      vite: 3.1.0_sass@1.54.8
+      vite: 3.1.0_sass@1.54.9
     transitivePeerDependencies:
       - less
       - sass
