@@ -13,7 +13,7 @@ overrides:
 specifiers:
   '@commitlint/cli': ^17.1.2
   '@commitlint/config-conventional': ^17.1.0
-  '@playwright/test': ^1.27.0
+  '@playwright/test': ^1.27.1
   '@testing-library/dom': ^8.19.0
   '@testing-library/react': ^13.4.0
   '@types/node': ^16.11.65
@@ -59,7 +59,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.1.2
   '@commitlint/config-conventional': 17.1.0
-  '@playwright/test': 1.27.0
+  '@playwright/test': 1.27.1
   '@testing-library/dom': 8.19.0
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@types/node': 16.11.65
@@ -1681,13 +1681,13 @@ packages:
       - supports-color
     dev: true
 
-  /@playwright/test/1.27.0:
-    resolution: {integrity: sha512-L4BswoJvGkFsEHhEgzVNHBnkFB1FbnBQn3QmvTl7+AouoJQ4a8tLwZKvytdovCsNi7B5cXuRo58yGvfM5PnExw==}
+  /@playwright/test/1.27.1:
+    resolution: {integrity: sha512-mrL2q0an/7tVqniQQF6RBL2saskjljXzqNcCOVMUjRIgE6Y38nCNaP+Dc2FBW06bcpD3tqIws/HT9qiMHbNU0A==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 17.0.14
-      playwright-core: 1.27.0
+      playwright-core: 1.27.1
     dev: true
 
   /@pnpm/network.ca-file/1.0.1:
@@ -5615,8 +5615,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.27.0:
-    resolution: {integrity: sha512-VBKaaFUVKDo3akW+o4DwbK1ZyXh46tcSwQKPK3lruh8IJd5feu55XVZx4vOkbb2uqrNdIF51sgsadYT533SdpA==}
+  /playwright-core/1.27.1:
+    resolution: {integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
