@@ -16,7 +16,7 @@ specifiers:
   '@playwright/test': ^1.27.1
   '@testing-library/dom': ^8.19.0
   '@testing-library/react': ^13.4.0
-  '@types/node': ^16.11.65
+  '@types/node': ^16.11.66
   '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
   '@types/sinon': ^10.0.13
@@ -62,7 +62,7 @@ devDependencies:
   '@playwright/test': 1.27.1
   '@testing-library/dom': 8.19.0
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-  '@types/node': 16.11.65
+  '@types/node': 16.11.66
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@types/sinon': 10.0.13
@@ -85,7 +85,7 @@ devDependencies:
   npm-check-updates: 16.3.11
   prettier: 2.7.1
   sass: 1.55.0
-  ts-node: 10.9.1_32pi7snzzbarjvfhwlvtgaxef4
+  ts-node: 10.9.1_gy6k6bedrshoc5b4zgt3uehy7q
   typescript: 4.8.4
   update-template: 1.3.1
   vite: 3.1.8_sass@1.55.0
@@ -1906,8 +1906,8 @@ packages:
     resolution: {integrity: sha512-0b+utRBSYj8L7XAp0d+DX7lI4cSmowNaaTkk6/1SKzbKkG+doLuPusB9EOvzLJ8ahJSk03bTLIL6cWaEd4dBKA==}
     dev: true
 
-  /@types/node/16.11.65:
-    resolution: {integrity: sha512-Vfz7wGMOr4jbQGiQHVJm8VjeQwM9Ya7mHe9LtQ264/Epf5n1KiZShOFqk++nBzw6a/ubgYdB9Od7P+MH/LjoWw==}
+  /@types/node/16.11.66:
+    resolution: {integrity: sha512-+xvMrGl3eAygKcf5jm+4zA4tbfEgmKM9o6/glTmN0RFVdu2VuFXMYYtRmuv3zTGCgAYMnEZLde3B7BTp+Yxcig==}
     dev: true
 
   /@types/node/17.0.14:
@@ -6684,7 +6684,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-node/10.9.1_32pi7snzzbarjvfhwlvtgaxef4:
+  /ts-node/10.9.1_gy6k6bedrshoc5b4zgt3uehy7q:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -6703,7 +6703,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 16.11.65
+      '@types/node': 16.11.66
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
