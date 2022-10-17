@@ -52,7 +52,7 @@
     "happy-dom": "^6.0.4",
     "husky": "^8.0.1",
     "node-fetch": "^3.2.10",
-    "npm-check-updates": "^16.3.11",
+    "npm-check-updates": "^16.3.13",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
     "ts-node": "^10.9.1",
