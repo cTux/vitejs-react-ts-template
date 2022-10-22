@@ -9,6 +9,7 @@ overrides:
   async@>=2.0.0 <2.6.4: '>=2.6.4'
   got@<11.8.5: '>=11.8.5'
   terser@>=5.0.0 <5.14.2: '>=5.14.2'
+  minimatch@<3.0.5: '>=3.0.5'
 
 specifiers:
   '@commitlint/cli': ^17.1.2
@@ -5057,12 +5058,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /minimatch/3.0.4:
-    resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
-    dependencies:
-      brace-expansion: 1.1.11
-    dev: true
-
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
@@ -5956,7 +5951,7 @@ packages:
     resolution: {integrity: sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      minimatch: 3.0.4
+      minimatch: 5.1.0
     dev: true
 
   /redent/1.0.0:
