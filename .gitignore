@@ -4,6 +4,7 @@ coverage
 dist
 dist-ssr
 node_modules
+storybook-static
 test-results
 *.local
 *.log

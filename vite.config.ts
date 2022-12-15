@@ -25,8 +25,8 @@ export default defineConfig(
     test: {
       globals: true,
       exclude: [
-        '**/.{idea,git,github,husky,run,cache,output,temp}/**',
-        '**/{dist,node_modules,playwright,coverage,test-results}/**',
+        '**/.{idea,git,github,husky,run,storybook,cache,output,temp}/**',
+        '**/{dist,node_modules,playwright,coverage,storybook-static,test-results}/**',
       ],
       environment: 'happy-dom',
       setupFiles: './src/tests/vitest.setup.ts',

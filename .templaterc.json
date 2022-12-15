@@ -3,6 +3,7 @@
     ".github/workflows/*",
     ".husky/*",
     ".run/*.xml",
+    ".storybook/*",
     ".*rc",
     ".*config",
     ".*ignore",

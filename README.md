@@ -1,4 +1,4 @@
-# ViteJS React+TypeScript Template
+# ViteJS React TypeScript Template
 
 [![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
 [![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)
@@ -29,4 +29,5 @@
 * Husky + hooks:
   * pre-commit: lint and test
   * commit-msg: conventional commit message
+* Storybook
 * GitHub Pages Deployment
