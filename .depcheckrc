@@ -1,1 +1,12 @@
-ignores: ["npm-check-updates", "concurrently", "typescript", "@types/*", "@testing-library/*", "@commitlint/cli", "@commitlint/config-conventional", "update-template"]
+ignores: [
+    "npm-check-updates",
+    "c8",
+    "@vitest/coverage-c8",
+    "concurrently",
+    "typescript",
+    "@types/*",
+    "@testing-library/*",
+    "@commitlint/cli",
+    "@commitlint/config-conventional",
+    "update-template"
+]

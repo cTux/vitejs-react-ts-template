@@ -1,7 +1,14 @@
 {
   "files": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
+    ".github/workflows/*",
+    ".husky/*",
+    ".run/*.xml",
+    ".*rc",
+    ".*config",
+    ".*ignore",
+    "*.json",
+    "*.config.js",
+    "*.config.ts"
   ],
   "npmDependencies": true,
   "npmScripts": true

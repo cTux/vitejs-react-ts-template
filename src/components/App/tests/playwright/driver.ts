@@ -1,11 +1,9 @@
 import { PlaywrightBaseDriver } from '~/tests/drivers/PlaywrightBaseDriver';
 import { CounterDriver } from '~/components/Counter/tests/playwright/driver';
 import { ButtonDriver } from '~/components/Button/tests/playwright/driver';
-import { serverPort } from './config';
 
 export class AppDriver extends PlaywrightBaseDriver {
   public componentSelector = '#app';
-  public port = serverPort;
   public counter: CounterDriver;
   public button: ButtonDriver;
 

@@ -1,31 +1,32 @@
-import { defineConfig } from 'vite';
+import { defineConfig, UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 
-// https://vitejs.dev/config/
-export default defineConfig((configEnv) => {
-  const isDevelopment = configEnv.mode === 'development';
-  const generateScopedName = isDevelopment
-    ? '[local]-[hash:base64:5]'
-    : '[hash:base64:5]';
-  return {
+export const port = 5173;
+
+export default defineConfig(
+  (configEnv): UserConfig => ({
     base: './',
     publicDir: './src/assets',
+    server: {
+      port,
+      strictPort: true,
+    },
     plugins: [react(), VitePWA(), basicSsl()],
     css: {
       modules: {
-        generateScopedName,
+        generateScopedName:
+          configEnv.mode === 'development'
+            ? '[local]-[hash:base64:5]'
+            : '[hash:base64:5]',
       },
     },
     test: {
       globals: true,
       exclude: [
-        '**/coverage/**',
-        '**/dist/**',
-        '**/node_modules/**',
-        '**/playwright/**',
-        '**/.{idea,git,cache,output,temp,husky,github}/**',
+        '**/.{idea,git,github,husky,run,cache,output,temp}/**',
+        '**/{dist,node_modules,playwright,coverage,test-results}/**',
       ],
       environment: 'happy-dom',
       setupFiles: './src/tests/vitest.setup.ts',
@@ -37,5 +38,5 @@ export default defineConfig((configEnv) => {
         '~/': `${__dirname}/src/`,
       },
     },
-  };
-});
+  })
+);

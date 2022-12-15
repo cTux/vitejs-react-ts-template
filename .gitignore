@@ -1,11 +1,10 @@
-node_modules
 .DS_Store
+.idea
+coverage
 dist
 dist-ssr
-*.local
-.idea
-*.log
-coverage
-.vitest-result.json
+node_modules
 test-results
-tests_output
+*.local
+*.log
+.vitest-result.json
