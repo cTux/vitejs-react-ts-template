@@ -1,6 +1,6 @@
 {
   "name": "@ctux/vitejs-react-ts-template",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "license": "MIT",
   "scripts": {
