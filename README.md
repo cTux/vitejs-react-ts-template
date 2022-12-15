@@ -8,20 +8,20 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
 ## Template's core:
-* NodeJS v16
+* NodeJS
 * [pnpm](https://pnpm.io/)
 * [ViteJS](https://vitejs.dev/)
 * [Vitest](https://vitest.dev/)
 
 ## Production bundle includes:
 
-* ReactJS v18
+* ReactJS
 * Normalize.css + CLSX
 * PWA manifest
 
 ## Development dependencies:
 
-* TypeScript v4
+* TypeScript
 * SCSS + CSS Modules 
 * ESLint + Prettier
 * Testing Library

@@ -1,8 +1,8 @@
-node_modules
-dist
 .idea
-coverage
 .github
 .husky
+.run
+dist
+node_modules
+coverage
 test-results
-tests_output
