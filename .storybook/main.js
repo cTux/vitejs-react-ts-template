@@ -1,17 +1,18 @@
 module.exports = {
-  "stories": [
-    "../src/**/*.stories.{ts,tsx}"
+  stories: ['../src/**/*.stories.{ts,tsx}'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
   ],
-  "addons": [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
-  ],
-  "framework": "@storybook/react",
-  "core": {
-    "builder": "@storybook/builder-vite"
+  framework: {
+    name: '@storybook/react-vite',
+    options: {},
   },
-  "features": {
-    "storyStoreV7": true
-  }
-}
+  core: {
+    disableTelemetry: true,
+  },
+  features: {
+    storyStoreV7: true,
+  },
+};
