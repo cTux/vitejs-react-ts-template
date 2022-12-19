@@ -1,6 +1,5 @@
 import { defineConfig, UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { VitePWA } from 'vite-plugin-pwa';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 
 export const port = 5173;
@@ -13,7 +12,7 @@ export default defineConfig(
       port,
       strictPort: true,
     },
-    plugins: [react(), VitePWA(), basicSsl()],
+    plugins: [react(), basicSsl()],
     css: {
       modules: {
         generateScopedName:
