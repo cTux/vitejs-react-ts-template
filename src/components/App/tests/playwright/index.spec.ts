@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { fnWrapper } from './fnWrapper';
 
-test(
+test.skip(
   'App - should match snapshot',
   fnWrapper(async (page, driver) => {
     await driver.render();

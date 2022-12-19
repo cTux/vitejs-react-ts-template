@@ -7,6 +7,10 @@ export class AppDriver extends PlaywrightBaseDriver {
   public counter: CounterDriver;
   public button: ButtonDriver;
 
+  async gotoPage() {
+    await super.gotoPage('/?path=/story/components-app--primary');
+  }
+
   async afterRender() {
     this.counter = new CounterDriver(this.page, this.component);
     this.button = new ButtonDriver(this.page, this.component);
