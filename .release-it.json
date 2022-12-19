@@ -1,0 +1,10 @@
+{
+  "git": {
+    "commitMessage": "chore(app): release v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "${version}",
+    "autoGenerate": true
+  }
+}
