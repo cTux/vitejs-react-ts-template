@@ -1,18 +1,28 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
-const url = 'https://localhost:5173';
+const url = 'http://localhost:6006';
 const baseURL = `${url}/`;
+const timeout = 30000;
+const globalTimeout = 120000;
 
 const config: PlaywrightTestConfig = {
+  timeout,
+  globalTimeout,
+  expect: {
+    timeout,
+  },
   webServer: {
-    command: 'pnpm serve',
-    timeout: 30000, // 30 seconds
+    timeout,
     url,
+    command: 'pnpm run dev:storybook',
     reuseExistingServer: !process.env.CI,
     ignoreHTTPSErrors: true,
   },
   use: {
     baseURL,
+    actionTimeout: timeout,
+    navigationTimeout: timeout,
+    headless: true,
     ignoreHTTPSErrors: true,
   },
 };

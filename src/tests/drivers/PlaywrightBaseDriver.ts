@@ -10,9 +10,8 @@ export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   // eslint-disable-next-line
   async beforeRender() {}
 
-  // eslint-disable-next-line
-  async gotoPage() {
-    await this.page.goto('/', getPlayWrightGotoConfig());
+  async gotoPage(url = '/') {
+    await this.page.goto(url, getPlayWrightGotoConfig());
   }
 
   // eslint-disable-next-line
@@ -25,7 +24,13 @@ export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   }
 
   get root(): Locator {
-    return this.parent ? this.parent : (this.page as unknown as Locator);
+    if (this.parent) {
+      return this.parent;
+    }
+    return (this.page as unknown as Locator)
+      .frameLocator('#storybook-preview-iframe')
+      .locator('html')
+      .locator('#storybook-root');
   }
 
   get component(): Locator {
