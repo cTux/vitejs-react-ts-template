@@ -18,7 +18,6 @@
 
 * [ReactJS](https://reactjs.org/)
 * [Normalize.css](https://necolas.github.io/normalize.css/) + [CLSX](https://www.npmjs.com/package/clsx)
-* PWA manifest
 
 ## Development dependencies:
 
