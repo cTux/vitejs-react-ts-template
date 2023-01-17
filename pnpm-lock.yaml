@@ -10,6 +10,7 @@ overrides:
   got@<11.8.5: '>=11.8.5'
   terser@>=5.0.0 <5.14.2: '>=5.14.2'
   minimatch@<3.0.5: '>=3.0.5'
+  json5@>=2.0.0 <2.2.2: '>=2.2.2'
 
 specifiers:
   '@commitlint/cli': ^17.4.2
