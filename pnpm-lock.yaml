@@ -2239,7 +2239,7 @@ packages:
       '@storybook/csf-plugin': 7.0.0-beta.31
       '@storybook/csf-tools': 7.0.0-beta.31
       '@storybook/global': 5.0.0
-      '@storybook/mdx2-csf': 1.0.0-next.4
+      '@storybook/mdx2-csf': 1.0.0-next.5
       '@storybook/node-logger': 7.0.0-beta.31
       '@storybook/postinstall': 7.0.0-beta.31
       '@storybook/preview-api': 7.0.0-beta.31
@@ -2522,7 +2522,7 @@ packages:
       '@storybook/client-logger': 7.0.0-beta.31
       '@storybook/core-common': 7.0.0-beta.31
       '@storybook/csf-plugin': 7.0.0-beta.31
-      '@storybook/mdx2-csf': 1.0.0-next.4
+      '@storybook/mdx2-csf': 1.0.0-next.5
       '@storybook/node-logger': 7.0.0-beta.31
       '@storybook/preview': 7.0.0-beta.31
       '@storybook/preview-api': 7.0.0-beta.31
@@ -2850,8 +2850,8 @@ packages:
     resolution: {integrity: sha512-cNkJEds7542Dj6k/oxm3jx0ZddyxUVz/2qQ2sQjz/qy4a6K+vFfMMLHuJEKKTl+26nqqCgia+sfFyCtzUzXr8g==}
     dev: true
 
-  /@storybook/mdx2-csf/1.0.0-next.4:
-    resolution: {integrity: sha512-nvRgYdpYvXsvSgCzKc4LQA1JxtJzmv47IsFAsh1rTz5FoHyK8watLU2WqX9T4w52fpFXBHx7RwGEsCRt0XgZlQ==}
+  /@storybook/mdx2-csf/1.0.0-next.5:
+    resolution: {integrity: sha512-02w0sgGZaK1agT050yCVhJ+o4rLHANWvLKWjQjeAsYbjneLC5ITt+3GDB4jRiWwJboZ8dHW1fGSK1Vg5fA34aQ==}
     dev: true
 
   /@storybook/node-logger/7.0.0-beta.31:
