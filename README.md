@@ -1,9 +1,7 @@
 # ViteJS React TypeScript Template
 
-[![Builds](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/build.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/build.yml)
 [![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
-[![Dependencies Audit](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-audit.yml)
-[![Executing Linter & Tests](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-and-test.yml)
+[![Lint & Test & Build](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-test-build.yml)
 [![PR Title Checking](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-validation.yml)
 
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)

@@ -10,7 +10,7 @@
     "dev": "vite",
     "dev:storybook": "storybook dev -p 6006",
     "lint": "eslint .",
-    "prepare": "husky install",
+    "prepare": "playwright install chromium && husky install",
     "preview": "vite preview",
     "serve": "vite serve",
     "template:check:dependencies": "pnpm exec depcheck",

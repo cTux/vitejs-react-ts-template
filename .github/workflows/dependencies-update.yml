@@ -31,6 +31,9 @@ jobs:
       - name: Updating dependencies
         run: pnpm exec npm-check-updates -u --target minor
 
+      - name: Dependencies audit
+        run: pnpm audit --fix
+
       - name: Installing dependencies
         run: pnpm i
 

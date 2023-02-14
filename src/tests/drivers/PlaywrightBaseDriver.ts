@@ -27,10 +27,7 @@ export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
     if (this.parent) {
       return this.parent;
     }
-    return (this.page as unknown as Locator)
-      .frameLocator('#storybook-preview-iframe')
-      .locator('html')
-      .locator('#storybook-root');
+    return this.page as unknown as Locator;
   }
 
   get component(): Locator {
