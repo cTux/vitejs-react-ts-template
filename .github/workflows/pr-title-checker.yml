@@ -1,4 +1,4 @@
-name: Title Checker
+name: PR Title Checker
 on:
   pull_request_target:
     types:
