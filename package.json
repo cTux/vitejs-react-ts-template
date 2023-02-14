@@ -10,6 +10,7 @@
     "dev": "vite",
     "dev:storybook": "storybook dev -p 6006",
     "lint": "eslint .",
+    "postinstall": "playwright install",
     "prepare": "husky install",
     "preview": "vite preview",
     "serve": "vite serve",
