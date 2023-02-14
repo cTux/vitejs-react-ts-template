@@ -1,14 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { fnWrapper } from './fnWrapper';
 
-test.skip(
-  'App - should match snapshot',
-  fnWrapper(async (page, driver) => {
-    await driver.render();
-    await expect(driver.component).toHaveScreenshot('app.png');
-  })
-);
-
 test(
   'App - should change state and re-render',
   fnWrapper(async (page, driver) => {
