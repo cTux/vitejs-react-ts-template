@@ -32,20 +32,28 @@ jobs:
       - name: Running ESLint
         run: pnpm run lint
 
-      - name: Running Vitest
-        run: pnpm run test:vitest
-
-      - name: Installing Chromium Driver
-        run: pnpm exec playwright install chromium
-
-      - name: Running Playwright
-        run: pnpm run test:playwright
-
   tests:
     runs-on: ubuntu-latest
     needs: lint
 
     steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Using pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: latest
+
+      - name: Use node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Installing dependencies
+        run: pnpm i
+
       - name: Running Vitest
         run: pnpm run test:vitest
 
@@ -60,6 +68,23 @@ jobs:
     needs: [lint, tests]
 
     steps:
+      - name: Checkout project
+        uses: actions/checkout@v2
+
+      - name: Using pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: latest
+
+      - name: Use node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Installing dependencies
+        run: pnpm i
+
       - name: Running Build
         run: pnpm run build
 
