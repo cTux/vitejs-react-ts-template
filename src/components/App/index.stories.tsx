@@ -1,8 +1,8 @@
-import { ComponentMeta } from '@storybook/react';
+import { Meta } from '@storybook/react';
 import { App } from './';
 
 export default {
   component: App,
-} as ComponentMeta<typeof App>;
+} as Meta<typeof App>;
 
 export const Primary = () => <App />;
