@@ -55,7 +55,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "gh-pages": "^5.0.0",
     "git-removed-branches": "^2.1.0",
-    "happy-dom": "^8.4.4",
+    "happy-dom": "^8.5.0",
     "husky": "^8.0.3",
     "node-fetch": "^3.3.0",
     "npm-check-updates": "^16.7.5",
