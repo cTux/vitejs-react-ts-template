@@ -31,7 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "@playwright/test": "^1.31.0",
+    "@playwright/test": "^1.31.1",
     "@storybook/addon-actions": "^7.0.0-beta.53",
     "@storybook/addon-essentials": "^7.0.0-beta.53",
     "@storybook/addon-interactions": "^7.0.0-beta.53",
@@ -58,7 +58,7 @@
     "happy-dom": "^8.7.1",
     "husky": "^8.0.3",
     "node-fetch": "^3.3.0",
-    "npm-check-updates": "^16.7.5",
+    "npm-check-updates": "^16.7.9",
     "prettier": "^2.8.4",
     "sass": "^1.58.3",
     "storybook": "^7.0.0-beta.53",
