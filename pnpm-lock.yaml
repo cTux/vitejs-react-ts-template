@@ -17,7 +17,7 @@ overrides:
 specifiers:
   '@commitlint/cli': ^17.4.4
   '@commitlint/config-conventional': ^17.4.4
-  '@playwright/test': ^1.31.0
+  '@playwright/test': ^1.31.1
   '@storybook/addon-actions': ^7.0.0-beta.53
   '@storybook/addon-essentials': ^7.0.0-beta.53
   '@storybook/addon-interactions': ^7.0.0-beta.53
@@ -46,7 +46,7 @@ specifiers:
   husky: ^8.0.3
   node-fetch: ^3.3.0
   normalize.css: ^8.0.1
-  npm-check-updates: ^16.7.5
+  npm-check-updates: ^16.7.9
   prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -66,7 +66,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.4.4
   '@commitlint/config-conventional': 17.4.4
-  '@playwright/test': 1.31.0
+  '@playwright/test': 1.31.1
   '@storybook/addon-actions': 7.0.0-beta.53_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-essentials': 7.0.0-beta.53_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-interactions': 7.0.0-beta.53_biqbaboplfbrettd7655fr4n2y
@@ -93,7 +93,7 @@ devDependencies:
   happy-dom: 8.7.1
   husky: 8.0.3
   node-fetch: 3.3.0
-  npm-check-updates: 16.7.5
+  npm-check-updates: 16.7.9
   prettier: 2.8.4
   sass: 1.58.3
   storybook: 7.0.0-beta.53
@@ -2100,13 +2100,13 @@ packages:
       - supports-color
     dev: true
 
-  /@playwright/test/1.31.0:
-    resolution: {integrity: sha512-Ys5s/06Dg9g3zAIdCIb/UOBYim3U7Zjb3DvC6XBtnRmnglH5O47iwYzmtxXu9fhSyzI2Jn28apkXIOD81GgCdw==}
+  /@playwright/test/1.31.1:
+    resolution: {integrity: sha512-IsytVZ+0QLDh1Hj83XatGp/GsI1CDJWbyDaBGbainsh0p2zC7F4toUocqowmjS6sQff2NGT3D9WbDj/3K2CJiA==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.14.0
-      playwright-core: 1.31.0
+      playwright-core: 1.31.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -7411,8 +7411,8 @@ packages:
       npm-normalize-package-bin: 3.0.0
     dev: true
 
-  /npm-check-updates/16.7.5:
-    resolution: {integrity: sha512-g+U/cxA0iTvU/syX0EjXWtV10joEKQlN5s6DCFdvpv6eXSGbSYpOjOtifiyopSekdPnjogVuIDtxNlVdJECR8w==}
+  /npm-check-updates/16.7.9:
+    resolution: {integrity: sha512-2/T9PB0W1uABB1N11jdnPauqNLXMhPUyC0DBeeGlUktcGl/412f40iqFsnNGCqIAag/C37SjLNiW2/yuD7Salw==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
@@ -7872,8 +7872,8 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /playwright-core/1.31.0:
-    resolution: {integrity: sha512-/KquBjS5DcASCh8cGeNVHuC0kyb7c9plKTwaKxgOGtxT7+DZO2fjmFvPDBSXslEIK5CeOO/2kk5rOCktFXKEdA==}
+  /playwright-core/1.31.1:
+    resolution: {integrity: sha512-JTyX4kV3/LXsvpHkLzL2I36aCdml4zeE35x+G5aPc4bkLsiRiQshU5lWeVpHFAuC8xAcbI6FDcw/8z3q2xtJSQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
