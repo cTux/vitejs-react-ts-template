@@ -1,6 +1,7 @@
 import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
-import { CounterProps } from '../types';
+
 import cn from '../styles.module.scss';
+import { CounterProps } from '../types';
 
 export class CounterDriver extends TestingLibraryBaseDriver<CounterProps> {
   public componentSelector = `h3.${cn.counter}`;

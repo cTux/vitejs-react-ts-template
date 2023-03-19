@@ -1,4 +1,5 @@
 import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
+
 import cn from '../styles.module.scss';
 
 export class LoadingMessageDriver extends TestingLibraryBaseDriver<unknown> {

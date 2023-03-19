@@ -1,6 +1,6 @@
-import { defineConfig, UserConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 import basicSsl from '@vitejs/plugin-basic-ssl';
+import react from '@vitejs/plugin-react';
+import { defineConfig, UserConfig } from 'vite';
 
 export const port = 5173;
 

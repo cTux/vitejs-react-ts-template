@@ -1,4 +1,5 @@
 import { Meta } from '@storybook/react';
+
 import { App } from './';
 
 export default {

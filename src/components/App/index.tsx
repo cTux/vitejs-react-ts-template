@@ -1,7 +1,9 @@
-import { useCallback, useState } from 'react';
 import cns from 'clsx';
-import { Counter } from '~/components/Counter';
+import { useCallback, useState } from 'react';
+
 import { Button } from '~/components/Button';
+import { Counter } from '~/components/Counter';
+
 import cn from './styles.module.scss';
 
 export const App = () => {

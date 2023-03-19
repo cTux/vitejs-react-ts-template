@@ -1,6 +1,7 @@
 import { Locator, Page } from '@playwright/test';
-import { BaseDriverTypes } from './types';
+
 import { getPlayWrightGotoConfig } from '../playwright.config';
+import { BaseDriverTypes } from './types';
 
 export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   public componentSelector = 'body';

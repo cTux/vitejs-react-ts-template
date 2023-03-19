@@ -1,5 +1,5 @@
-import { LoadingMessageDriver } from './driver';
 import cn from '../styles.module.scss';
+import { LoadingMessageDriver } from './driver';
 
 describe('LoadingMessage', () => {
   let driver: LoadingMessageDriver;
