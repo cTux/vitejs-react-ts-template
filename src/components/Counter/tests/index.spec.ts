@@ -1,6 +1,7 @@
 import { beforeEach } from 'vitest';
-import { CounterDriver } from './driver';
+
 import cn from '../styles.module.scss';
+import { CounterDriver } from './driver';
 
 describe('Counter', () => {
   let driver: CounterDriver;

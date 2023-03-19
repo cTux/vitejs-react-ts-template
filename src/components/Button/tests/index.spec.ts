@@ -1,4 +1,5 @@
 import { fakeFn } from '~/tests/mocks/fn';
+
 import { ButtonDriver } from './driver';
 
 describe('Button', () => {

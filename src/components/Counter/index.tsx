@@ -1,6 +1,7 @@
 import { clsx } from 'clsx';
-import { CounterProps } from './types';
+
 import cn from './styles.module.scss';
+import { CounterProps } from './types';
 
 export const Counter = (props: CounterProps) => {
   const { value, shouldUseBoldClass } = props;

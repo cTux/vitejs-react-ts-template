@@ -1,6 +1,6 @@
-import { PlaywrightBaseDriver } from '~/tests/drivers/PlaywrightBaseDriver';
-import { CounterDriver } from '~/components/Counter/tests/playwright/driver';
 import { ButtonDriver } from '~/components/Button/tests/playwright/driver';
+import { CounterDriver } from '~/components/Counter/tests/playwright/driver';
+import { PlaywrightBaseDriver } from '~/tests/drivers/PlaywrightBaseDriver';
 
 export class AppDriver extends PlaywrightBaseDriver {
   public componentSelector = '#app';

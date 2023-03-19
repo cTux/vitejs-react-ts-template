@@ -53,6 +53,8 @@
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "gh-pages": "^5.0.0",
     "git-removed-branches": "^2.1.0",
     "happy-dom": "^8.9.0",

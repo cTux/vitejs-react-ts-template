@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+
 import { AppDriver } from './driver';
 
 export const fnWrapper = (
