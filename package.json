@@ -37,7 +37,7 @@
     "@storybook/addon-interactions": "^7.0.0-rc.4",
     "@storybook/addon-links": "^7.0.0-rc.4",
     "@storybook/react": "^7.0.0-rc.4",
-    "@storybook/react-vite": "^7.0.0-alpha.25",
+    "@storybook/react-vite": "^7.0.0-rc.4",
     "@storybook/testing-library": "^0.0.14-next.1",
     "@testing-library/dom": "^9.0.1",
     "@testing-library/react": "^14.0.0",
