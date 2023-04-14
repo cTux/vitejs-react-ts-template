@@ -30,11 +30,11 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: ^17.5.1
-    version: 17.5.1
+    specifier: ^17.6.0
+    version: 17.6.0
   '@commitlint/config-conventional':
-    specifier: ^17.4.4
-    version: 17.4.4
+    specifier: ^17.6.0
+    version: 17.6.0
   '@playwright/test':
     specifier: ^1.32.3
     version: 1.32.3
@@ -114,8 +114,8 @@ devDependencies:
     specifier: ^2.1.0
     version: 2.1.0
   happy-dom:
-    specifier: ^9.3.2
-    version: 9.3.2
+    specifier: ^9.5.0
+    version: 9.5.0
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -145,7 +145,7 @@ devDependencies:
     version: 4.2.1(@types/node@18.15.11)(sass@1.62.0)
   vitest:
     specifier: ^0.30.1
-    version: 0.30.1(happy-dom@9.3.2)(sass@1.62.0)
+    version: 0.30.1(happy-dom@9.5.0)(sass@1.62.0)
 
 packages:
 
@@ -1513,13 +1513,13 @@ packages:
     dev: true
     optional: true
 
-  /@commitlint/cli@17.5.1:
-    resolution: {integrity: sha512-pRRgGSzdHQHehxZbGA3qF6wVPyl+EEQgTe/t321rtMLFbuJ7nRj2waS17s/v5oEbyZtiY5S8PGB6XtEIm0I+Sg==}
+  /@commitlint/cli@17.6.0:
+    resolution: {integrity: sha512-JaZeZ1p6kfkSiZlDoQjK09AuiI9zYQMiIUJzTOM8qNRHFOXOPmiTM56nI67yzeUSNTFu6M/DRqjmdjtA5q3hEg==}
     engines: {node: '>=v14'}
     hasBin: true
     dependencies:
       '@commitlint/format': 17.4.4
-      '@commitlint/lint': 17.4.4
+      '@commitlint/lint': 17.6.0
       '@commitlint/load': 17.5.0
       '@commitlint/read': 17.5.1
       '@commitlint/types': 17.4.4
@@ -1533,8 +1533,8 @@ packages:
       - '@swc/wasm'
     dev: true
 
-  /@commitlint/config-conventional@17.4.4:
-    resolution: {integrity: sha512-u6ztvxqzi6NuhrcEDR7a+z0yrh11elY66nRrQIpqsqW6sZmpxYkDLtpRH8jRML+mmxYQ8s4qqF06Q/IQx5aJeQ==}
+  /@commitlint/config-conventional@17.6.0:
+    resolution: {integrity: sha512-2Y9M7MN942bTK5h70fJGknhXA02+OtWCkKeIzTSwsdwz1V7y6bxYv24x052E9XHKtZHJfvM3iLuTOsjRvLqWtA==}
     engines: {node: '>=v14'}
     dependencies:
       conventional-changelog-conventionalcommits: 5.0.0
@@ -1581,13 +1581,13 @@ packages:
       semver: 7.3.8
     dev: true
 
-  /@commitlint/lint@17.4.4:
-    resolution: {integrity: sha512-qgkCRRFjyhbMDWsti/5jRYVJkgYZj4r+ZmweZObnbYqPUl5UKLWMf9a/ZZisOI4JfiPmRktYRZ2JmqlSvg+ccw==}
+  /@commitlint/lint@17.6.0:
+    resolution: {integrity: sha512-6cEXxpxZd7fbtYMxeosOum/Nnwu3VdSuZcrFSqP9lWNsrHRv4ijVsnLeomvo6WHPchGOeEWAazAI7Q6Ap22fJw==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/is-ignored': 17.4.4
       '@commitlint/parse': 17.4.4
-      '@commitlint/rules': 17.4.4
+      '@commitlint/rules': 17.6.0
       '@commitlint/types': 17.4.4
     dev: true
 
@@ -1651,8 +1651,8 @@ packages:
       resolve-global: 1.0.0
     dev: true
 
-  /@commitlint/rules@17.4.4:
-    resolution: {integrity: sha512-0tgvXnHi/mVcyR8Y8mjTFZIa/FEQXA4uEutXS/imH2v1UNkYDSEMsK/68wiXRpfW1euSgEdwRkvE1z23+yhNrQ==}
+  /@commitlint/rules@17.6.0:
+    resolution: {integrity: sha512-Ka7AsRFvkKMYYE7itgo7hddRGCiV+0BgbTIAq4PWmnkHAECxYpdqMVzW5jaATmXZfwfRRTB57e7KZWj6EPmK1A==}
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/ensure': 17.4.4
@@ -3728,7 +3728,7 @@ packages:
       c8: 7.13.0
       picocolors: 1.0.0
       std-env: 3.3.2
-      vitest: 0.30.1(happy-dom@9.3.2)(sass@1.62.0)
+      vitest: 0.30.1(happy-dom@9.5.0)(sass@1.62.0)
     dev: true
 
   /@vitest/expect@0.30.1:
@@ -6172,8 +6172,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@9.3.2:
-    resolution: {integrity: sha512-WTsnOmYXCiHs4REtjWSpi4lWJfhFj3ag9NMRrl0a1gwmAXwjRGm7fppdf6e3v38HtOins1Lgv0WKY8+ZlL0kDQ==}
+  /happy-dom@9.5.0:
+    resolution: {integrity: sha512-pNdHSZRWIckzg8aDQRbBgaivr2Ef+uSTpCCRGnxIETyewHA6841T8EPE+cmfhPjGi5jQN6c+oloXGGYB5SrpcA==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -9837,7 +9837,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.30.1(happy-dom@9.3.2)(sass@1.62.0):
+  /vitest@0.30.1(happy-dom@9.5.0)(sass@1.62.0):
     resolution: {integrity: sha512-y35WTrSTlTxfMLttgQk4rHcaDkbHQwDP++SNwPb+7H8yb13Q3cu2EixrtHzF27iZ8v0XCciSsLg00RkPAzB/aA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9882,7 +9882,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.3.2
+      happy-dom: 9.5.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
