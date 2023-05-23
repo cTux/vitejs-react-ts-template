@@ -1,8 +1,22 @@
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import react from '@vitejs/plugin-react';
 import { defineConfig, UserConfig } from 'vite';
+import checker from 'vite-plugin-checker';
 
 export const port = 5173;
+
+const plugins = [react(), basicSsl()];
+
+if (!process.env.VITEST) {
+  plugins.push(
+    checker({
+      typescript: true,
+      eslint: {
+        lintCommand: 'eslint .',
+      },
+    })
+  );
+}
 
 export default defineConfig(
   (configEnv): UserConfig => ({
@@ -12,7 +26,7 @@ export default defineConfig(
       port,
       strictPort: true,
     },
-    plugins: [react(), basicSsl()],
+    plugins,
     css: {
       modules: {
         generateScopedName:
