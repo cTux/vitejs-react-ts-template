@@ -1,6 +1,7 @@
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import react from '@vitejs/plugin-react';
 import { defineConfig, UserConfig } from 'vite';
+import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
 
 export const port = 5173;
 
@@ -12,8 +13,18 @@ export default defineConfig(
       port,
       strictPort: true,
     },
-    plugins: [react(), basicSsl()],
+    plugins: [
+      react(),
+      basicSsl(),
+      chunkSplitPlugin({
+        strategy: 'all-in-one',
+        customSplitting: {
+          vendors: ['react', 'react-dom', 'normalize.css', 'clsx'],
+        },
+      }),
+    ],
     css: {
+      devSourcemap: true,
       modules: {
         generateScopedName:
           configEnv.mode === 'development'
