@@ -2,6 +2,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 import react from '@vitejs/plugin-react';
 import { defineConfig, UserConfig } from 'vite';
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
+import mix from 'vite-plugin-mix';
 
 export const port = 5173;
 
@@ -22,6 +23,9 @@ export default defineConfig(
           app: [/src\//],
           vendors: [/node_modules\//],
         },
+      }),
+      mix({
+        handler: './src/backend/index.ts',
       }),
     ],
     css: {
