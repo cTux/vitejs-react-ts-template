@@ -10,6 +10,7 @@ export const App = () => {
   const [value, setValue] = useState<number>(
     +import.meta.env.VITE_COUNTER || 0
   );
+
   const handleOnClick = useCallback(() => setValue((value) => value + 1), []);
 
   return (
