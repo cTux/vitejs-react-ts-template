@@ -1,7 +1,6 @@
 .DS_Store
 .idea
 coverage
-build
 dist
 dist-ssr
 node_modules

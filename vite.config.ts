@@ -2,14 +2,14 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 import react from '@vitejs/plugin-react';
 import { defineConfig, UserConfig } from 'vite';
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
-import mix from 'vite-plugin-mix';
+import svgr from 'vite-plugin-svgr';
 
 export const port = 5173;
 
 export default defineConfig(
   (configEnv): UserConfig => ({
     base: './',
-    publicDir: './src/assets',
+    publicDir: './public',
     server: {
       port,
       strictPort: true,
@@ -24,9 +24,7 @@ export default defineConfig(
           vendors: [/node_modules\//],
         },
       }),
-      mix({
-        handler: './src/backend/index.ts',
-      }),
+      svgr(),
     ],
     css: {
       modules: {

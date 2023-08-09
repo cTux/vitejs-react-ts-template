@@ -6,7 +6,10 @@ import { BaseDriverTypes } from './types';
 export class PlaywrightBaseDriver implements BaseDriverTypes<unknown, Locator> {
   public componentSelector = 'body';
 
-  constructor(protected page: Page, private parent?: Locator) {}
+  constructor(
+    protected page: Page,
+    private parent?: Locator
+  ) {}
 
   // eslint-disable-next-line
   async beforeRender() {}
