@@ -3,7 +3,6 @@
 .husky
 .run
 .storybook
-build
 dist
 node_modules
 coverage
