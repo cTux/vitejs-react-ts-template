@@ -14,7 +14,7 @@
     "dev:storybook": "storybook dev -p 6006",
     "lint": "eslint .",
     "preinstall": "check-engine",
-    "prepare": "playwright install chromium && husky install && pnpm template:add:remote",
+    "prepare": "playwright install chromium && husky install",
     "preview": "vite preview",
     "serve": "vite serve",
     "template:check:dependencies": "pnpm exec depcheck",
@@ -33,11 +33,13 @@
     "express": "^4.18.2",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.0",
     "@commitlint/config-conventional": "^17.7.0",
+    "@julr/vite-plugin-validate-env": "^0.2.4",
     "@playwright/test": "^1.36.2",
     "@storybook/addon-actions": "^7.2.1",
     "@storybook/addon-essentials": "^7.2.1",

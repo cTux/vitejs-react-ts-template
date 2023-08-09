@@ -1,8 +1,11 @@
+import { ValidateEnv } from '@julr/vite-plugin-validate-env';
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import react from '@vitejs/plugin-react';
 import { defineConfig, UserConfig } from 'vite';
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split';
 import svgr from 'vite-plugin-svgr';
+
+import { envSchema } from './env.schema';
 
 export const port = 5173;
 
@@ -25,6 +28,10 @@ export default defineConfig(
         },
       }),
       svgr(),
+      ValidateEnv({
+        validator: 'zod',
+        schema: envSchema,
+      }),
     ],
     css: {
       modules: {
