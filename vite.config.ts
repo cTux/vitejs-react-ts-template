@@ -11,7 +11,7 @@ export const port = 5173;
 
 export default defineConfig(
   (configEnv): UserConfig => ({
-    base: './',
+    base: '/',
     publicDir: './public',
     server: {
       port,
