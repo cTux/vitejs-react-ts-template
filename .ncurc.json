@@ -1,0 +1,5 @@
+{
+  "reject": [
+    "vite-plugin-chunk-split"
+  ]
+}
