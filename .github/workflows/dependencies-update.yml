@@ -37,8 +37,14 @@ jobs:
       - name: Installing dependencies
         run: pnpm i
 
-      - name: Installing Chromium Driver
-        run: pnpm exec playwright install chromium
+      - name: Running ESLint
+        run: pnpm run lint
+
+      - name: Running Vitest
+        run: pnpm run test
+
+      - name: Running Build
+        run: pnpm run build
 
       - name: Run command
         uses: ctux/simple-pull-request-gh-action@1.1.0

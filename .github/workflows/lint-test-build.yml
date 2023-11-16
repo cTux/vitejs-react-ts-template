@@ -55,13 +55,7 @@ jobs:
         run: pnpm i
 
       - name: Running Vitest
-        run: pnpm run test:vitest
-
-      - name: Installing Chromium Driver
-        run: pnpm exec playwright install chromium
-
-      - name: Running Playwright
-        run: pnpm run test:playwright
+        run: pnpm run test
 
   build:
     runs-on: ubuntu-latest
