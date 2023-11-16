@@ -4,7 +4,8 @@
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "license": "MIT",
   "engines": {
-    "node": "^20"
+    "node": "^20",
+    "pnpm": "^8"
   },
   "scripts": {
     "build": "vite build",
@@ -58,7 +59,7 @@
     "@vitejs/plugin-basic-ssl": "^1.0.1",
     "@vitejs/plugin-react": "^4.1.1",
     "@vitest/coverage-c8": "^0.33.0",
-    "check-engine": "^1.12.0",
+    "ctux-check-engine": "^1.12.0",
     "depcheck": "^1.4.7",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
