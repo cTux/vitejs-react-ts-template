@@ -2,7 +2,6 @@
 
 [![Dependencies Update](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/dependencies-update.yml)
 [![Lint & Test & Build](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-test-build.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/lint-test-build.yml)
-[![PR Title Checker](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-checker.yml/badge.svg)](https://github.com/cTux/vitejs-react-ts-template/actions/workflows/pr-title-checker.yml)
 
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
