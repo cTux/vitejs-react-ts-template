@@ -37,7 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@julr/vite-plugin-validate-env": "^0.2.5",
+    "@julr/vite-plugin-validate-env": "^1.0.1",
     "@playwright/test": "^1.40.1",
     "@storybook/addon-actions": "^7.6.5",
     "@storybook/addon-essentials": "^7.6.5",
@@ -56,7 +56,7 @@
     "@vitejs/plugin-basic-ssl": "^1.0.2",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-c8": "^0.33.0",
-    "@vitest/coverage-v8": "^0.34.6",
+    "@vitest/coverage-v8": "^1.0.4",
     "ctux-check-engine": "^1.12.0",
     "depcheck": "^1.4.7",
     "eslint": "^8.56.0",
@@ -78,7 +78,7 @@
     "vite": "^5.0.10",
     "vite-plugin-chunk-split": "^0.4.7",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^0.34.6"
+    "vitest": "^1.0.4"
   },
   "pnpm": {
     "overrides": {
