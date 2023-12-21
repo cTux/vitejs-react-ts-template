@@ -11,6 +11,7 @@
   "scripts": {
     "build": "vite build",
     "build:storybook": "storybook build",
+    "build:analyze": "pnpm exec vite-bundle-visualizer",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "dev:storybook": "storybook dev -p 6006",
@@ -76,6 +77,7 @@
     "typescript": "^5.3.3",
     "update-template": "^1.3.1",
     "vite": "^5.0.10",
+    "vite-bundle-visualizer": "^1.0.0",
     "vite-plugin-chunk-split": "^0.4.7",
     "vite-plugin-svgr": "^4.2.0",
     "vitest": "^1.1.0"
