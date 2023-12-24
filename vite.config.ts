@@ -55,6 +55,7 @@ export default defineConfig(
     resolve: {
       alias: {
         '~/': `${__dirname}/src/`,
+        '@mui/styled-engine': '@mui/styled-engine-sc',
       },
     },
   })

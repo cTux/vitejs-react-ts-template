@@ -1,4 +1,3 @@
-import cn from '../styles.module.scss';
 import { LoadingMessageDriver } from './driver';
 
 describe('LoadingMessage', () => {
@@ -10,7 +9,6 @@ describe('LoadingMessage', () => {
 
   it('should render w/o errors and exist', async () => {
     await driver.render();
-    expect(driver.component.classList.contains(cn.anyOtherClass));
     expect(driver.component.textContent).toEqual('Loading...');
   });
 });
