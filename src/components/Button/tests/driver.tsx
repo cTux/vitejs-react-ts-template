@@ -6,9 +6,9 @@ import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriv
 import { ButtonProps } from '../types';
 
 export class ButtonDriver extends TestingLibraryBaseDriver<ButtonProps> {
-  public componentSelector = 'button';
+  public componentSelector = 'button#clickMe';
 
-  async renderFn(props): Promise<JSX.Element> {
+  async renderFn(props: ButtonProps): Promise<JSX.Element> {
     const { Button } = await import('../index');
     return <Button {...props} />;
   }

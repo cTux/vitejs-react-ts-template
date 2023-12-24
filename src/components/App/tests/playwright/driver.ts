@@ -3,7 +3,7 @@ import { CounterDriver } from '~/components/Counter/tests/playwright/driver';
 import { PlaywrightBaseDriver } from '~/tests/drivers/PlaywrightBaseDriver';
 
 export class AppDriver extends PlaywrightBaseDriver {
-  public componentSelector = '#app';
+  public componentSelector = 'div#app';
   public counter: CounterDriver;
   public button: ButtonDriver;
 

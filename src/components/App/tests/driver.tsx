@@ -2,10 +2,8 @@ import { ButtonDriver } from '~/components/Button/tests/driver';
 import { CounterDriver } from '~/components/Counter/tests/driver';
 import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
 
-import cn from '../styles.module.scss';
-
 export class AppDriver extends TestingLibraryBaseDriver<unknown> {
-  public componentSelector = `div.${cn.app}`;
+  public componentSelector = 'div#app';
   public counter: CounterDriver;
   public button: ButtonDriver;
 

@@ -1,6 +1,6 @@
 {
   "name": "@ctux/vitejs-react-ts-template",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "license": "MIT",
   "type": "module",
@@ -28,12 +28,19 @@
     "test:vitest:watch": "vitest"
   },
   "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.1",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12",
+    "@mui/styled-engine-sc": "^5.14.12",
     "clsx": "^2.0.0",
     "express": "^4.18.2",
-    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^5.3.11",
     "zod": "^3.22.4"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",

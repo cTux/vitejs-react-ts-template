@@ -1,9 +1,5 @@
-import cn from './styles.module.scss';
+import { Box } from '@mui/material';
 
 export const LoadingMessage = () => {
-  return (
-    <div id={'loading'} className={cn.loading}>
-      Loading...
-    </div>
-  );
+  return <Box id="loading">Loading...</Box>;
 };

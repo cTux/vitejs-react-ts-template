@@ -1,10 +1,11 @@
+import { Button as ButtonMUI } from '@mui/material';
+
 import { ButtonProps } from './types';
 
-export const Button = (props: ButtonProps = {}) => {
-  const { onClick } = props;
+export const Button = ({ onClick }: ButtonProps) => {
   return (
-    <button id={'clickMe'} onClick={onClick}>
+    <ButtonMUI id="clickMe" variant="contained" onClick={onClick}>
       Click me!
-    </button>
+    </ButtonMUI>
   );
 };
