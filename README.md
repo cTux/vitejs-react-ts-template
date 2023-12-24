@@ -6,20 +6,19 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
 ## Template's core:
-* [NodeJS](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/)
 * [pnpm](https://pnpm.io/)
-* [ViteJS](https://vitejs.dev/)
+* [Vite](https://vitejs.dev/)
 * [Vitest](https://vitest.dev/)
 
 ## Production bundle includes:
 
 * [ReactJS](https://reactjs.org/)
-* [Normalize.css](https://necolas.github.io/normalize.css/) + [CLSX](https://www.npmjs.com/package/clsx)
+* [Material UI](https://mui.com/material-ui/getting-started/) + [Styled Components](https://styled-components.com/)
 
 ## Development dependencies:
 
 * [TypeScript](https://www.typescriptlang.org/)
-* SCSS + CSS Modules 
 * [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
 * [Testing Library](https://testing-library.com/)
 * [Playwright](https://playwright.dev/)
