@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.1",
+    "@mui/material": "^5.15.2",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12",
     "@mui/styled-engine-sc": "^5.14.12",
     "clsx": "^2.0.0",
