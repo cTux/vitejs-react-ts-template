@@ -41,8 +41,8 @@
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
-    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@julr/vite-plugin-validate-env": "^1.0.1",
     "@playwright/test": "^1.40.1",
     "@storybook/addon-actions": "^7.6.7",
@@ -62,7 +62,7 @@
     "@vitejs/plugin-basic-ssl": "^1.0.2",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-c8": "^0.33.0",
-    "@vitest/coverage-v8": "^1.1.1",
+    "@vitest/coverage-v8": "^1.1.2",
     "ctux-check-engine": "^1.12.0",
     "depcheck": "^1.4.7",
     "eslint": "^8.56.0",
@@ -83,7 +83,7 @@
     "vite-bundle-visualizer": "^1.0.0",
     "vite-plugin-chunk-split": "^0.5.0",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.1.1"
+    "vitest": "^1.1.2"
   },
   "pnpm": {
     "overrides": {
