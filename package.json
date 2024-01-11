@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.3",
+    "@mui/material": "^5.15.4",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12",
     "@mui/styled-engine-sc": "^5.14.12",
     "react": "^18.2.0",
@@ -54,7 +54,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/dom": "^9.3.4",
     "@testing-library/react": "^14.1.2",
-    "@types/node": "^20.10.8",
+    "@types/node": "^20.11.0",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
