@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "^18.4.4",
     "@julr/vite-plugin-validate-env": "^1.0.1",
     "@playwright/test": "^1.41.0",
-    "@storybook/addon-actions": "^7.6.8",
+    "@storybook/addon-actions": "^7.6.9",
     "@storybook/addon-essentials": "^7.6.8",
     "@storybook/addon-interactions": "^7.6.8",
     "@storybook/addon-links": "^7.6.8",
