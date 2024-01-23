@@ -4,18 +4,20 @@ import { useCallback, useState } from 'react';
 import { AppContainer } from '~/components/App/styles';
 import { Button } from '~/components/Button';
 import { Counter } from '~/components/Counter';
+import { counterDefaultValue } from '~/env.variables';
 
 export const App = () => {
-  const [value, setValue] = useState<number>(
-    +import.meta.env.VITE_COUNTER || 0
-  );
+  const [counterValue, setCounterValue] = useState<number>(counterDefaultValue);
 
-  const handleOnClick = useCallback(() => setValue((value) => value + 1), []);
+  const handleOnClick = useCallback(
+    () => setCounterValue((value) => value + 1),
+    []
+  );
 
   return (
     <AppContainer id="app">
       <CssBaseline />
-      <Counter value={value} />
+      <Counter value={counterValue} />
       <Button onClick={handleOnClick} />
     </AppContainer>
   );
