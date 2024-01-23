@@ -29,7 +29,7 @@ jobs:
         run: pnpm i
 
       - name: Updating dependencies
-        run: pnpm exec npm-check-updates -u --target minor
+        run: pnpm exec npm-check-updates -u --target minor --packageManager pnpm
 
       - name: Dependencies audit
         run: pnpm audit --fix
