@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.5",
+    "@mui/material": "^5.15.6",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12",
     "@mui/styled-engine-sc": "^5.14.12",
     "react": "^18.2.0",
@@ -41,8 +41,8 @@
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/cli": "^18.5.0",
+    "@commitlint/config-conventional": "^18.5.0",
     "@julr/vite-plugin-validate-env": "^1.0.1",
     "@playwright/test": "^1.41.1",
     "@storybook/addon-actions": "^7.6.10",
@@ -57,8 +57,8 @@
     "@types/node": "^20.11.5",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-c8": "^0.33.0",
