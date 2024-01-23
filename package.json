@@ -30,15 +30,15 @@
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.6",
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12",
-    "@mui/styled-engine-sc": "^5.14.12",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.13",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.11",
+    "styled-components": "^6.1.8",
     "zod": "^3.22.4"
   },
   "resolutions": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.14.12"
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.13"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.5.0",
@@ -71,7 +71,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "gh-pages": "^6.1.1",
-    "happy-dom": "^12.10.3",
+    "happy-dom": "^13.2.1",
     "husky": "^8.0.3",
     "node-fetch": "^3.3.2",
     "npm-check-updates": "^16.14.12",
