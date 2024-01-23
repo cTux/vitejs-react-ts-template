@@ -6,7 +6,7 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
 
 ## Template's core:
-* [Node.js](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/) (How to switch to [Bun](./docs/BUN.md)?)
 * [pnpm](https://pnpm.io/)
 * [Vite](https://vitejs.dev/)
 * [Vitest](https://vitest.dev/)
