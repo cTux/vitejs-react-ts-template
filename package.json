@@ -81,7 +81,7 @@
     "vite-bundle-visualizer": "^1.0.0",
     "vite-plugin-chunk-split": "^0.5.0",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.2.1"
+    "vitest": "^1.2.2"
   },
   "pnpm": {
     "overrides": {
