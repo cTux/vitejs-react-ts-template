@@ -154,6 +154,9 @@ devDependencies:
   npm-check-updates:
     specifier: ^16.14.14
     version: 16.14.14
+  playwright:
+    specifier: ^1.41.2
+    version: 1.41.2
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
@@ -1845,7 +1848,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.8
+      '@babel/runtime': 7.23.9
       '@emotion/babel-plugin': 11.11.0
       '@emotion/cache': 11.11.0
       '@emotion/serialize': 1.1.2
