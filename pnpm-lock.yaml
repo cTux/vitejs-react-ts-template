@@ -149,8 +149,8 @@ devDependencies:
     specifier: ^3.3.2
     version: 3.3.2
   npm-check-updates:
-    specifier: ^16.14.14
-    version: 16.14.14
+    specifier: ^16.14.15
+    version: 16.14.15
   playwright:
     specifier: ^1.41.2
     version: 1.41.2
@@ -9117,8 +9117,8 @@ packages:
       npm-normalize-package-bin: 3.0.0
     dev: true
 
-  /npm-check-updates@16.14.14:
-    resolution: {integrity: sha512-Y3ajS/Ep40jM489rLBdz9jehn/BMil5s9fA4PSr2ZJxxSmtLWCSmRqsI2IEZ9Nb3MTMu8a3s7kBs0l+JbjdkTA==}
+  /npm-check-updates@16.14.15:
+    resolution: {integrity: sha512-WH0wJ9j6CP7Azl+LLCxWAYqroT2IX02kRIzgK/fg0rPpMbETgHITWBdOPtrv521xmA3JMgeNsQ62zvVtS/nCmQ==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
