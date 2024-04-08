@@ -143,8 +143,8 @@ devDependencies:
     specifier: ^6.1.1
     version: 6.1.1
   happy-dom:
-    specifier: ^14.6.1
-    version: 14.6.1
+    specifier: ^14.7.1
+    version: 14.7.1
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -183,7 +183,7 @@ devDependencies:
     version: 4.2.0(typescript@5.4.4)(vite@5.2.8)
   vitest:
     specifier: ^1.4.0
-    version: 1.4.0(@types/node@20.12.5)(happy-dom@14.6.1)
+    version: 1.4.0(@types/node@20.12.5)(happy-dom@14.7.1)
 
 packages:
 
@@ -1978,7 +1978,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.9
+      '@babel/runtime': 7.24.4
       '@emotion/babel-plugin': 11.11.0
       '@emotion/cache': 11.11.0
       '@emotion/serialize': 1.1.4
@@ -3907,7 +3907,7 @@ packages:
       dom-accessibility-api: 0.6.3
       lodash: 4.17.21
       redent: 3.0.0
-      vitest: 1.4.0(@types/node@20.12.5)(happy-dom@14.6.1)
+      vitest: 1.4.0(@types/node@20.12.5)(happy-dom@14.7.1)
     dev: true
 
   /@testing-library/react@14.2.2(react-dom@18.2.0)(react@18.2.0):
@@ -4401,7 +4401,7 @@ packages:
       strip-literal: 2.0.0
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
-      vitest: 1.4.0(@types/node@20.12.5)(happy-dom@14.6.1)
+      vitest: 1.4.0(@types/node@20.12.5)(happy-dom@14.7.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6807,8 +6807,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@14.6.1:
-    resolution: {integrity: sha512-nIid31b7esld4oWbUyu8PwhBZxxI+8VLp5NeDPSLucVqH/kwM0HCjWm/uSdCcEP1XJJZdzLFsNJm3Mm+2x7erg==}
+  /happy-dom@14.7.1:
+    resolution: {integrity: sha512-v60Q0evZ4clvMcrAh5/F8EdxDdfHdFrtffz/CNe10jKD+nFweZVxM91tW+UyY2L4AtpgIaXdZ7TQmiO1pfcwbg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -10585,7 +10585,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.4.0(@types/node@20.12.5)(happy-dom@14.6.1):
+  /vitest@1.4.0(@types/node@20.12.5)(happy-dom@14.7.1):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10620,7 +10620,7 @@ packages:
       chai: 4.3.10
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 14.6.1
+      happy-dom: 14.7.1
       local-pkg: 0.5.0
       magic-string: 0.30.5
       pathe: 1.1.1
