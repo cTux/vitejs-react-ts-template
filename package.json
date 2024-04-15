@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
-    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@julr/vite-plugin-validate-env": "^1.1.1",
     "@playwright/test": "^1.43.1",
     "@storybook/addon-actions": "^8.0.8",
