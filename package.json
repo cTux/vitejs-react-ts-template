@@ -1,12 +1,12 @@
 {
   "name": "@ctux/vitejs-react-ts-template",
-  "version": "3.2.1",
+  "version": "3.3.1",
   "homepage": "https://github.com/cTux/vitejs-react-ts-template",
   "license": "MIT",
   "type": "module",
   "engines": {
     "node": "^20",
-    "pnpm": "^8"
+    "pnpm": "^9"
   },
   "scripts": {
     "build": "vite build",
