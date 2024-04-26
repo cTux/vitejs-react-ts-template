@@ -31,8 +31,8 @@
     "@mui/material": "^5.15.15",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.21",
     "@mui/styled-engine-sc": "^6.0.0-alpha.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "styled-components": "^6.1.8",
     "zod": "^3.23.4"
   },
@@ -54,13 +54,13 @@
     "@testing-library/dom": "^9.3.4",
     "@testing-library/react": "^14.3.1",
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "@vitest/coverage-v8": "^1.5.0",
+    "@vitest/coverage-v8": "^1.5.2",
     "ctux-check-engine": "^1.13.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -71,7 +71,7 @@
     "happy-dom": "^14.7.1",
     "husky": "^9.0.11",
     "node-fetch": "^3.3.2",
-    "npm-check-updates": "^16.14.18",
+    "npm-check-updates": "^16.14.20",
     "playwright": "^1.43.1",
     "prettier": "^3.2.5",
     "storybook": "^8.0.9",
@@ -81,7 +81,7 @@
     "vite-bundle-visualizer": "^1.1.0",
     "vite-plugin-chunk-split": "^0.5.0",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.5.0"
+    "vitest": "^1.5.2"
   },
   "pnpm": {
     "overrides": {
