@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.5",
-    "@mui/material": "^5.15.17",
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.22",
-    "@mui/styled-engine-sc": "^6.0.0-alpha.22",
+    "@mui/material": "^5.15.18",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.23",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.23",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.11",
