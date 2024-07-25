@@ -1,5 +1,5 @@
 import { fireEvent } from '@testing-library/dom';
-import { act } from '@testing-library/react';
+import { act } from 'react';
 
 import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriver';
 
