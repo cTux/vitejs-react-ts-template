@@ -29,15 +29,15 @@
   "dependencies": {
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.5",
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-dev.20240529-082515-213b5e33ab",
-    "@mui/styled-engine-sc": "^6.0.0-dev.20240529-082515-213b5e33ab",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.18",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.12",
     "zod": "^3.23.8"
   },
   "resolutions": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-dev.20240529-082515-213b5e33ab"
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.18"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
@@ -51,8 +51,8 @@
     "@storybook/react": "^8.2.6",
     "@storybook/react-vite": "^8.2.6",
     "@storybook/testing-library": "^0.2.2",
-    "@testing-library/dom": "^9.3.4",
-    "@testing-library/react": "^14.3.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.0",
     "@types/node": "^20.14.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -60,7 +60,7 @@
     "@typescript-eslint/parser": "^7.17.0",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/coverage-v8": "^2.0.4",
     "ctux-check-engine": "^1.13.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -81,7 +81,7 @@
     "vite-bundle-visualizer": "^1.2.1",
     "vite-plugin-chunk-split": "^0.5.0",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.6.0"
+    "vitest": "^2.0.4"
   },
   "pnpm": {
     "overrides": {
