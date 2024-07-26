@@ -29,8 +29,8 @@
   "dependencies": {
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.5",
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-alpha.18",
-    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.0-dev.20240529-082515-213b5e33ab",
+    "@mui/styled-engine-sc": "^6.0.0-dev.20240529-082515-213b5e33ab",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.12",
@@ -110,7 +110,9 @@
       "ip@=2.0.0": ">=2.0.1",
       "express@<4.19.2": ">=4.19.2",
       "tar@<6.2.1": ">=6.2.1",
-      "ejs@<3.1.10": ">=3.1.10"
+      "ejs@<3.1.10": ">=3.1.10",
+      "ws@>=8.0.0 <8.17.1": ">=8.17.1",
+      "braces@<3.0.3": ">=3.0.3"
     }
   }
 }
