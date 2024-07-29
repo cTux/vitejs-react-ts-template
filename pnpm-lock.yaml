@@ -66,13 +66,13 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.3.0
-        version: 19.3.0(@types/node@20.14.12)(typescript@5.5.4)
+        version: 19.3.0(@types/node@20.14.13)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
       '@julr/vite-plugin-validate-env':
         specifier: ^1.1.1
-        version: 1.1.1(vite@5.3.5(@types/node@20.14.12))(zod@3.23.8)
+        version: 1.1.1(vite@5.3.5(@types/node@20.14.13))(zod@3.23.8)
       '@playwright/test':
         specifier: ^1.45.3
         version: 1.45.3
@@ -84,7 +84,7 @@ importers:
         version: 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))
       '@storybook/addon-interactions':
         specifier: ^8.2.6
-        version: 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))
+        version: 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))
       '@storybook/addon-links':
         specifier: ^8.2.6
         version: 8.2.6(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))
@@ -93,7 +93,7 @@ importers:
         version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)
       '@storybook/react-vite':
         specifier: ^8.2.6
-        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.13.0)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))
+        version: 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.13.0)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))
       '@storybook/testing-library':
         specifier: ^0.2.2
         version: 0.2.2
@@ -104,8 +104,8 @@ importers:
         specifier: ^16.0.0
         version: 16.0.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
-        specifier: ^20.14.12
-        version: 20.14.12
+        specifier: ^20.14.13
+        version: 20.14.13
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -120,13 +120,13 @@ importers:
         version: 7.17.0(eslint@8.57.0)(typescript@5.5.4)
       '@vitejs/plugin-basic-ssl':
         specifier: ^1.1.0
-        version: 1.1.0(vite@5.3.5(@types/node@20.14.12))
+        version: 1.1.0(vite@5.3.5(@types/node@20.14.13))
       '@vitejs/plugin-react':
         specifier: ^4.3.1
-        version: 4.3.1(vite@5.3.5(@types/node@20.14.12))
+        version: 4.3.1(vite@5.3.5(@types/node@20.14.13))
       '@vitest/coverage-v8':
         specifier: ^2.0.4
-        version: 2.0.4(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))
+        version: 2.0.4(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))
       ctux-check-engine:
         specifier: ^1.13.0
         version: 1.13.0
@@ -152,8 +152,8 @@ importers:
         specifier: ^14.12.3
         version: 14.12.3
       husky:
-        specifier: ^9.1.2
-        version: 9.1.2
+        specifier: ^9.1.3
+        version: 9.1.3
       node-fetch:
         specifier: ^3.3.2
         version: 3.3.2
@@ -177,19 +177,19 @@ importers:
         version: 1.3.1
       vite:
         specifier: ^5.3.5
-        version: 5.3.5(@types/node@20.14.12)
+        version: 5.3.5(@types/node@20.14.13)
       vite-bundle-visualizer:
         specifier: ^1.2.1
         version: 1.2.1(rollup@4.13.0)
       vite-plugin-chunk-split:
         specifier: ^0.5.0
-        version: 0.5.0(vite@5.3.5(@types/node@20.14.12))
+        version: 0.5.0(vite@5.3.5(@types/node@20.14.13))
       vite-plugin-svgr:
         specifier: ^4.2.0
-        version: 4.2.0(rollup@4.13.0)(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))
+        version: 4.2.0(rollup@4.13.0)(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))
       vitest:
         specifier: ^2.0.4
-        version: 2.0.4(@types/node@20.14.12)(happy-dom@14.12.3)
+        version: 2.0.4(@types/node@20.14.13)(happy-dom@14.12.3)
 
 packages:
 
@@ -2125,8 +2125,8 @@ packages:
   '@types/node@18.18.9':
     resolution: {integrity: sha512-0f5klcuImLnG4Qreu9hPj/rEfFq6YRc5n2mAjSsH+ec/mJL+3voBH0+8T7o8RpFjH7ovc+TRsL/c7OYIQsPTfQ==}
 
-  '@types/node@20.14.12':
-    resolution: {integrity: sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==}
+  '@types/node@20.14.13':
+    resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
 
   '@types/parse-json@4.0.0':
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -3513,8 +3513,8 @@ packages:
   humanize-ms@1.2.1:
     resolution: {integrity: sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==}
 
-  husky@9.1.2:
-    resolution: {integrity: sha512-1/aDMXZdhr1VdJJTLt6e7BipM0Jd9qkpubPiIplon1WmCeOy3nnzsCMeBqS9AsL5ioonl8F8y/F2CLOmk19/Pw==}
+  husky@9.1.3:
+    resolution: {integrity: sha512-ET3TQmQgdIu0pt+jKkpo5oGyg/4MQZpG6xcam5J5JyNJV+CBT23OBpCF15bKHKycRyMH9k6ONy8g2HdGIsSkMQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6637,11 +6637,11 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@commitlint/cli@19.3.0(@types/node@20.14.12)(typescript@5.5.4)':
+  '@commitlint/cli@19.3.0(@types/node@20.14.13)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.2.0(@types/node@20.14.12)(typescript@5.5.4)
+      '@commitlint/load': 19.2.0(@types/node@20.14.13)(typescript@5.5.4)
       '@commitlint/read': 19.2.1
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -6688,7 +6688,7 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.2.0(@types/node@20.14.12)(typescript@5.5.4)':
+  '@commitlint/load@19.2.0(@types/node@20.14.13)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
@@ -6696,7 +6696,7 @@ snapshots:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.5.4)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.14.12)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.14.13)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -7029,13 +7029,13 @@ snapshots:
     dependencies:
       '@sinclair/typebox': 0.27.8
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.1(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))':
     dependencies:
       glob: 7.2.0
       glob-promise: 4.2.2(glob@7.2.0)
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.5.4)
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     optionalDependencies:
       typescript: 5.5.4
 
@@ -7056,12 +7056,12 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@julr/vite-plugin-validate-env@1.1.1(vite@5.3.5(@types/node@20.14.12))(zod@3.23.8)':
+  '@julr/vite-plugin-validate-env@1.1.1(vite@5.3.5(@types/node@20.14.13))(zod@3.23.8)':
     dependencies:
       '@poppinss/cliui': 6.3.0
       '@poppinss/validator-lite': 1.0.3
       unconfig: 0.3.11
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     optionalDependencies:
       zod: 3.23.8
 
@@ -7368,11 +7368,11 @@ snapshots:
       '@storybook/global': 5.0.0
       storybook: 8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))
 
-  '@storybook/addon-interactions@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))':
+  '@storybook/addon-interactions@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))':
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/instrumenter': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))
-      '@storybook/test': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))
+      '@storybook/test': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))
       polished: 4.2.2
       storybook: 8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))
       ts-dedent: 2.2.0
@@ -7434,7 +7434,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/builder-vite@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))':
+  '@storybook/builder-vite@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))':
     dependencies:
       '@storybook/csf-plugin': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))
       '@types/find-cache-dir': 3.2.1
@@ -7446,7 +7446,7 @@ snapshots:
       magic-string: 0.30.5
       storybook: 8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))
       ts-dedent: 2.2.0
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
@@ -7531,11 +7531,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))
 
-  '@storybook/react-vite@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.13.0)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))':
+  '@storybook/react-vite@8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.13.0)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.1(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))
       '@rollup/pluginutils': 5.0.5(rollup@4.13.0)
-      '@storybook/builder-vite': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12))
+      '@storybook/builder-vite': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13))
       '@storybook/react': 8.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(typescript@5.5.4)
       find-up: 5.0.0
       magic-string: 0.30.5
@@ -7545,7 +7545,7 @@ snapshots:
       resolve: 1.22.8
       storybook: 8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5))
       tsconfig-paths: 4.2.0
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - rollup
@@ -7582,12 +7582,12 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
 
-  '@storybook/test@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))':
+  '@storybook/test@8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))':
     dependencies:
       '@storybook/csf': 0.1.11
       '@storybook/instrumenter': 8.2.6(storybook@8.2.6(@babel/preset-env@7.24.5(@babel/core@7.24.5)))
       '@testing-library/dom': 10.1.0
-      '@testing-library/jest-dom': 6.4.5(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))
+      '@testing-library/jest-dom': 6.4.5(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))
       '@testing-library/user-event': 14.5.2(@testing-library/dom@10.1.0)
       '@vitest/expect': 1.6.0
       '@vitest/spy': 1.6.0
@@ -7717,7 +7717,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.5(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))':
+  '@testing-library/jest-dom@6.4.5(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))':
     dependencies:
       '@adobe/css-tools': 4.3.3
       '@babel/runtime': 7.24.5
@@ -7728,7 +7728,7 @@ snapshots:
       lodash: 4.17.21
       redent: 3.0.0
     optionalDependencies:
-      vitest: 2.0.4(@types/node@20.14.12)(happy-dom@14.12.3)
+      vitest: 2.0.4(@types/node@20.14.13)(happy-dom@14.12.3)
 
   '@testing-library/react@16.0.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -7783,26 +7783,26 @@ snapshots:
   '@types/body-parser@1.19.2':
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/cacheable-request@6.0.2':
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
       '@types/responselike': 1.0.0
 
   '@types/connect@3.4.35':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/cross-spawn@6.0.2':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/doctrine@0.0.9': {}
 
@@ -7818,7 +7818,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.5':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.4
@@ -7835,7 +7835,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/hast@3.0.4':
     dependencies:
@@ -7845,7 +7845,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/lodash@4.14.191': {}
 
@@ -7861,7 +7861,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.14.12':
+  '@types/node@20.14.13':
     dependencies:
       undici-types: 5.26.5
 
@@ -7892,7 +7892,7 @@ snapshots:
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/semver-utils@1.1.3': {}
 
@@ -7901,12 +7901,12 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/serve-static@1.15.0':
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
 
   '@types/stylis@4.2.5': {}
 
@@ -7997,22 +7997,22 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-basic-ssl@1.1.0(vite@5.3.5(@types/node@20.14.12))':
+  '@vitejs/plugin-basic-ssl@1.1.0(vite@5.3.5(@types/node@20.14.13))':
     dependencies:
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
 
-  '@vitejs/plugin-react@4.3.1(vite@5.3.5(@types/node@20.14.12))':
+  '@vitejs/plugin-react@4.3.1(vite@5.3.5(@types/node@20.14.13))':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.24.5)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.24.5)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@2.0.4(vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3))':
+  '@vitest/coverage-v8@2.0.4(vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -8026,7 +8026,7 @@ snapshots:
       std-env: 3.7.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.0.4(@types/node@20.14.12)(happy-dom@14.12.3)
+      vitest: 2.0.4(@types/node@20.14.13)(happy-dom@14.12.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -8612,9 +8612,9 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.14.12)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.14.13)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
       cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.0
       typescript: 5.5.4
@@ -9521,7 +9521,7 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  husky@9.1.2: {}
+  husky@9.1.3: {}
 
   iconv-lite@0.4.24:
     dependencies:
@@ -11493,13 +11493,13 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-node@2.0.4(@types/node@20.14.12):
+  vite-node@2.0.4(@types/node@20.14.13):
     dependencies:
       cac: 6.7.14
       debug: 4.3.5
       pathe: 1.1.2
       tinyrainbow: 1.2.0
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11510,34 +11510,34 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-chunk-split@0.5.0(vite@5.3.5(@types/node@20.14.12)):
+  vite-plugin-chunk-split@0.5.0(vite@5.3.5(@types/node@20.14.13)):
     dependencies:
       es-module-lexer: 1.4.1
       import-meta-resolve: 4.0.0
       magic-string: 0.30.5
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
 
-  vite-plugin-svgr@4.2.0(rollup@4.13.0)(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.12)):
+  vite-plugin-svgr@4.2.0(rollup@4.13.0)(typescript@5.5.4)(vite@5.3.5(@types/node@20.14.13)):
     dependencies:
       '@rollup/pluginutils': 5.0.5(rollup@4.13.0)
       '@svgr/core': 8.1.0(typescript@5.5.4)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.5.4))
-      vite: 5.3.5(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
     transitivePeerDependencies:
       - rollup
       - supports-color
       - typescript
 
-  vite@5.3.5(@types/node@20.14.12):
+  vite@5.3.5(@types/node@20.14.13):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.40
       rollup: 4.13.0
     optionalDependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
       fsevents: 2.3.3
 
-  vitest@2.0.4(@types/node@20.14.12)(happy-dom@14.12.3):
+  vitest@2.0.4(@types/node@20.14.13)(happy-dom@14.12.3):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.4
@@ -11555,11 +11555,11 @@ snapshots:
       tinybench: 2.8.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.3.5(@types/node@20.14.12)
-      vite-node: 2.0.4(@types/node@20.14.12)
+      vite: 5.3.5(@types/node@20.14.13)
+      vite-node: 2.0.4(@types/node@20.14.13)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.14.12
+      '@types/node': 20.14.13
       happy-dom: 14.12.3
     transitivePeerDependencies:
       - less
