@@ -54,11 +54,11 @@
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.1",
-    "@types/node": "^20.14.13",
+    "@types/node": "^20.16.3",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-react": "^4.3.1",
     "@vitest/coverage-v8": "^2.0.5",
@@ -113,7 +113,8 @@
       "tar@<6.2.1": ">=6.2.1",
       "ejs@<3.1.10": ">=3.1.10",
       "ws@>=8.0.0 <8.17.1": ">=8.17.1",
-      "braces@<3.0.3": ">=3.0.3"
+      "braces@<3.0.3": ">=3.0.3",
+      "micromatch@<4.0.8": ">=4.0.8"
     }
   }
 }
