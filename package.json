@@ -31,7 +31,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.0.1",
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@^6.0.1",
-    "@mui/styled-engine-sc": "^6.0.1",
+    "@mui/styled-engine-sc": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.13",
