@@ -16,7 +16,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "dev:storybook": "storybook dev -p 6006",
-    "lint": "eslint .",
+    "lint": "tsc --noEmit && eslint .",
     "postinstall": "check-engine",
     "prepare": "playwright install chromium && husky",
     "preview": "vite preview",
