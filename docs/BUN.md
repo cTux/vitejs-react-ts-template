@@ -6,7 +6,7 @@ Replace
 
 ```json
   "engines": {
-    "node": "^20",
+    "node": "^22",
     "pnpm": "^8"
   },
 ```
