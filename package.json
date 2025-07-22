@@ -6,7 +6,7 @@
   "type": "module",
   "engines": {
     "node": "^22",
-    "pnpm": "^9"
+    "pnpm": "^10"
   },
   "scripts": {
     "build": "pnpm build:bundle && pnpm build:storybook",
