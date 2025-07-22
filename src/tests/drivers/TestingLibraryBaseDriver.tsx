@@ -37,7 +37,7 @@ export class TestingLibraryBaseDriver<Props>
     return this.root.querySelector(this.componentSelector);
   }
 
-  async renderFn(props?: Props): Promise<JSX.Element> {
+  async renderFn(props?: Props): Promise<React.ReactElement> {
     return <div {...props}>testing-library-base-driver</div>;
   }
 

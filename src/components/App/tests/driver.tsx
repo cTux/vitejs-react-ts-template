@@ -7,7 +7,7 @@ export class AppDriver extends TestingLibraryBaseDriver<unknown> {
   public counter: CounterDriver;
   public button: ButtonDriver;
 
-  async renderFn(): Promise<JSX.Element> {
+  async renderFn(): Promise<React.ReactElement> {
     const { App } = await import('../index');
     return <App />;
   }

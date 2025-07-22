@@ -8,7 +8,7 @@ export class CounterDriver extends TestingLibraryBaseDriver<CounterProps> {
     value: 0,
   };
 
-  async renderFn(props: CounterProps): Promise<JSX.Element> {
+  async renderFn(props: CounterProps): Promise<React.ReactElement> {
     const { Counter } = await import('../index');
     return <Counter {...props} />;
   }

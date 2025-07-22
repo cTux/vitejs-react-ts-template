@@ -3,7 +3,7 @@ import { TestingLibraryBaseDriver } from '~/tests/drivers/TestingLibraryBaseDriv
 export class LoadingMessageDriver extends TestingLibraryBaseDriver<unknown> {
   public componentSelector = 'div#loading';
 
-  async renderFn(): Promise<JSX.Element> {
+  async renderFn(): Promise<React.ReactElement> {
     const { LoadingMessage } = await import('../index');
     return <LoadingMessage />;
   }
