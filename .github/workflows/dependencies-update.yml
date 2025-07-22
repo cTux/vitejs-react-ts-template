@@ -46,9 +46,6 @@ jobs:
       - name: Running Build
         run: pnpm run build
 
-      - name: Running Build for Storybook
-        run: pnpm run build:storybook
-
       - name: Run command
         uses: ctux/simple-pull-request-gh-action@1.1.0
         with:
